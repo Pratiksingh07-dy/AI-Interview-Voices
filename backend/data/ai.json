@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence is the field of computer science that enables machines to perform tasks that typically require human intelligence.",
+    "keywords": ["artificial intelligence", "machine intelligence", "human like tasks", "decision making", "automation", "intelligent systems", "problem solving"]
+  },
+  {
+    "question": "What are the types of AI?",
+    "answer": "AI can be classified into narrow AI, general AI, and super AI based on capabilities.",
+    "keywords": ["types of AI", "narrow AI", "general AI", "super AI", "weak AI", "strong AI", "intelligence levels"]
+  },
+  {
+    "question": "What is narrow AI?",
+    "answer": "Narrow AI is designed to perform a specific task and operates within a limited domain.",
+    "keywords": ["narrow AI", "task specific", "limited domain", "weak AI", "single task", "specialized system", "restricted intelligence"]
+  },
+  {
+    "question": "What is general AI?",
+    "answer": "General AI refers to machines that can perform any intellectual task that a human can do.",
+    "keywords": ["general AI", "human level intelligence", "multi tasking", "adaptive learning", "strong AI", "general purpose", "intelligent system"]
+  },
+  {
+    "question": "What is super AI?",
+    "answer": "Super AI is a hypothetical form of AI that surpasses human intelligence in all aspects.",
+    "keywords": ["super AI", "beyond human intelligence", "advanced AI", "self learning", "future AI", "intelligence surpass", "theoretical concept"]
+  },
+  {
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a subset of AI that enables systems to learn from data and improve performance over time.",
+    "keywords": ["machine learning", "learn from data", "pattern recognition", "model training", "data driven", "AI subset", "prediction"]
+  },
+  {
+    "question": "What is deep learning?",
+    "answer": "Deep learning is a subset of machine learning that uses neural networks with multiple layers to learn complex patterns.",
+    "keywords": ["deep learning", "neural networks", "multiple layers", "complex patterns", "representation learning", "AI model", "data processing"]
+  },
+  {
+    "question": "What is neural network?",
+    "answer": "A neural network is a model inspired by the human brain that consists of interconnected nodes for processing data.",
+    "keywords": ["neural network", "brain inspired", "nodes", "layers", "connections", "learning model", "AI system"]
+  },
+  {
+    "question": "What is supervised learning in AI?",
+    "answer": "Supervised learning is a learning approach where models are trained using labeled data.",
+    "keywords": ["supervised learning", "labeled data", "training data", "input output mapping", "prediction model", "learning algorithm", "data labels"]
+  },
+  {
+    "question": "What is unsupervised learning in AI?",
+    "answer": "Unsupervised learning finds patterns in data without labeled outputs.",
+    "keywords": ["unsupervised learning", "unlabeled data", "pattern discovery", "clustering", "data grouping", "learning without labels", "data structure"]
+  },
+  {
+    "question": "What is reinforcement learning in AI?",
+    "answer": "Reinforcement learning involves learning through interaction with an environment using rewards and penalties.",
+    "keywords": ["reinforcement learning", "agent environment", "reward system", "trial and error", "policy learning", "decision making", "feedback loop"]
+  },
+  {
+    "question": "What is search problem in AI?",
+    "answer": "A search problem involves finding a sequence of actions that leads from an initial state to a goal state.",
+    "keywords": ["search problem", "initial state", "goal state", "state space", "solution path", "AI search", "problem solving"]
+  },
+  {
+    "question": "What is state space?",
+    "answer": "State space is the set of all possible states that a system can be in during problem solving.",
+    "keywords": ["state space", "possible states", "problem domain", "search space", "AI representation", "state transitions", "solution space"]
+  },
+  {
+    "question": "What is heuristic function?",
+    "answer": "A heuristic function estimates the cost to reach the goal from a given state.",
+    "keywords": ["heuristic function", "cost estimate", "informed search", "goal distance", "search optimization", "evaluation function", "AI search"]
+  },
+  {
+    "question": "What is uninformed search?",
+    "answer": "Uninformed search explores the search space without using any additional knowledge about the goal.",
+    "keywords": ["uninformed search", "blind search", "no heuristic", "state exploration", "search strategy", "AI algorithm", "problem solving"]
+  },
+  {
+    "question": "What is informed search?",
+    "answer": "Informed search uses heuristics to guide the search process toward the goal efficiently.",
+    "keywords": ["informed search", "heuristic guidance", "efficient search", "goal directed", "search optimization", "AI algorithm", "problem solving"]
+  },
+  {
+    "question": "What is BFS in AI?",
+    "answer": "Breadth First Search explores nodes level by level in a search tree.",
+    "keywords": ["BFS", "level order", "queue based", "search tree", "state expansion", "shortest path", "uninformed search"]
+  },
+  {
+    "question": "What is DFS in AI?",
+    "answer": "Depth First Search explores nodes deeply before backtracking.",
+    "keywords": ["DFS", "depth traversal", "stack based", "backtracking", "search tree", "path exploration", "AI search"]
+  },
+  {
+    "question": "What is uniform cost search?",
+    "answer": "Uniform cost search expands the node with the lowest path cost first.",
+    "keywords": ["uniform cost search", "lowest cost", "priority queue", "path cost", "optimal search", "graph search", "AI algorithm"]
+  },
+  {
+    "question": "What is greedy best first search?",
+    "answer": "Greedy search selects the node that appears closest to the goal based on heuristic.",
+    "keywords": ["greedy search", "heuristic value", "goal proximity", "best first", "search strategy", "AI algorithm", "informed search"]
+  },
+  {
+    "question": "What is A star algorithm?",
+    "answer": "A star algorithm finds the shortest path using both path cost and heuristic.",
+    "keywords": ["A star", "heuristic plus cost", "optimal path", "f function", "search algorithm", "graph search", "AI search"]
+  },
+  {
+    "question": "What is knowledge representation?",
+    "answer": "Knowledge representation is the method of storing information in a way that machines can understand and use.",
+    "keywords": ["knowledge representation", "data modeling", "AI knowledge", "facts storage", "logic representation", "information encoding", "AI system"]
+  },
+  {
+    "question": "What is logic in AI?",
+    "answer": "Logic in AI is used to represent knowledge and perform reasoning using rules and facts.",
+    "keywords": ["logic", "reasoning", "rules", "facts", "knowledge base", "AI inference", "logical representation"]
+  },
+  {
+    "question": "What is propositional logic?",
+    "answer": "Propositional logic uses statements that are either true or false to represent knowledge.",
+    "keywords": ["propositional logic", "true false", "statements", "logic system", "AI reasoning", "boolean logic", "knowledge representation"]
+  },
+  {
+    "question": "What is predicate logic?",
+    "answer": "Predicate logic extends propositional logic by including variables and relationships between objects.",
+    "keywords": ["predicate logic", "variables", "relations", "first order logic", "AI reasoning", "logical expressions", "knowledge modeling"]
+  },
+  {
+    "question": "What is inference in AI?",
+    "answer": "Inference is the process of deriving new information from existing knowledge.",
+    "keywords": ["inference", "derive knowledge", "logical reasoning", "AI decision", "rule application", "knowledge base", "conclusion"]
+  },
+  {
+    "question": "What is forward chaining?",
+    "answer": "Forward chaining is an inference method that starts from known facts and applies rules to reach conclusions.",
+    "keywords": ["forward chaining", "data driven", "rule application", "fact based", "inference method", "AI reasoning", "knowledge processing"]
+  },
+  {
+    "question": "What is backward chaining?",
+    "answer": "Backward chaining starts from the goal and works backward to find supporting facts.",
+    "keywords": ["backward chaining", "goal driven", "rule matching", "inference method", "AI reasoning", "problem solving", "logic system"]
+  },
+  {
+    "question": "What is expert system?",
+    "answer": "An expert system is an AI system that uses knowledge and rules to solve complex problems like a human expert.",
+    "keywords": ["expert system", "knowledge base", "rule based", "decision system", "AI application", "problem solving", "human expertise"]
+  },
+  {
+    "question": "What is knowledge base in AI?",
+    "answer": "A knowledge base is a collection of facts and rules used by an AI system to make decisions.",
+    "keywords": ["knowledge base", "facts and rules", "information storage", "AI memory", "data repository", "rule based system", "decision support"]
+  },
+  {
+    "question": "What is inference engine?",
+    "answer": "An inference engine applies logical rules to the knowledge base to derive new information.",
+    "keywords": ["inference engine", "rule application", "logical reasoning", "decision making", "AI processing", "knowledge base", "conclusion generation"]
+  },
+  {
+    "question": "What is Turing Test?",
+    "answer": "Turing Test evaluates whether a machine can exhibit intelligent behavior indistinguishable from a human.",
+    "keywords": ["turing test", "human like behavior", "intelligence evaluation", "machine vs human", "AI test", "conversation test", "behavior analysis"]
+  },
+  {
+    "question": "What is rational agent?",
+    "answer": "A rational agent is an entity that acts to achieve the best outcome based on its knowledge and environment.",
+    "keywords": ["rational agent", "decision making", "optimal action", "environment interaction", "AI agent", "goal oriented", "intelligent behavior"]
+  },
+  {
+    "question": "What is agent in AI?",
+    "answer": "An agent is an entity that perceives its environment through sensors and acts upon it using actuators.",
+    "keywords": ["agent", "sensors and actuators", "environment interaction", "perception", "action execution", "AI system", "autonomous entity"]
+  },
+  {
+    "question": "What is environment in AI?",
+    "answer": "Environment is everything that surrounds an agent and influences its actions.",
+    "keywords": ["environment", "external world", "agent surroundings", "input conditions", "state changes", "interaction", "AI context"]
+  },
+  {
+    "question": "What is PEAS representation?",
+    "answer": "PEAS describes Performance measure, Environment, Actuators, and Sensors for an AI agent.",
+    "keywords": ["PEAS", "performance measure", "environment", "actuators", "sensors", "agent design", "AI framework"]
+  },
+  {
+    "question": "What is utility based agent?",
+    "answer": "A utility based agent chooses actions based on maximizing a utility function.",
+    "keywords": ["utility agent", "utility function", "maximize outcome", "decision making", "AI agent", "preference model", "optimal choice"]
+  },
+  {
+    "question": "What is goal based agent?",
+    "answer": "A goal based agent takes actions to achieve a specific goal.",
+    "keywords": ["goal based agent", "goal achievement", "target state", "decision making", "AI planning", "action selection", "problem solving"]
+  },
+  {
+    "question": "What is model based agent?",
+    "answer": "A model based agent maintains an internal model of the environment to make decisions.",
+    "keywords": ["model based agent", "internal model", "environment representation", "state tracking", "decision making", "AI agent", "knowledge update"]
+  },
+  {
+    "question": "What is simple reflex agent?",
+    "answer": "A simple reflex agent acts only on current percepts without considering history.",
+    "keywords": ["reflex agent", "current state", "no memory", "condition action", "rule based", "AI agent", "instant response"]
+  },
+  {
+    "question": "What is learning agent?",
+    "answer": "A learning agent improves its performance over time by learning from experience.",
+    "keywords": ["learning agent", "experience based", "performance improvement", "adaptive system", "feedback learning", "AI agent", "knowledge update"]
+  },
+  {
+    "question": "What is natural language processing?",
+    "answer": "Natural Language Processing enables machines to understand and process human language.",
+    "keywords": ["NLP", "human language", "text processing", "speech processing", "language understanding", "AI communication", "linguistics"]
+  },
+  {
+    "question": "What is tokenization?",
+    "answer": "Tokenization is the process of splitting text into smaller units like words or sentences.",
+    "keywords": ["tokenization", "text splitting", "word tokens", "sentence tokens", "NLP preprocessing", "text analysis", "language processing"]
+  },
+  {
+    "question": "What is stemming?",
+    "answer": "Stemming reduces words to their root form by removing suffixes.",
+    "keywords": ["stemming", "root word", "suffix removal", "text normalization", "NLP preprocessing", "word reduction", "language processing"]
+  },
+  {
+    "question": "What is lemmatization?",
+    "answer": "Lemmatization converts words to their base form using vocabulary and grammar rules.",
+    "keywords": ["lemmatization", "base form", "dictionary form", "word normalization", "NLP preprocessing", "language rules", "text processing"]
+  },
+  {
+    "question": "What is computer vision?",
+    "answer": "Computer vision enables machines to interpret and process visual data from images or videos.",
+    "keywords": ["computer vision", "image processing", "visual data", "pattern recognition", "object detection", "AI vision", "image analysis"]
+  },
+  {
+    "question": "What is image classification?",
+    "answer": "Image classification assigns labels to images based on their content.",
+    "keywords": ["image classification", "label images", "pattern recognition", "AI vision", "image categories", "deep learning", "visual recognition"]
+  },
+  {
+    "question": "What is object detection?",
+    "answer": "Object detection identifies and locates objects within an image.",
+    "keywords": ["object detection", "identify objects", "bounding box", "image analysis", "computer vision", "AI vision", "object recognition"]
+  },
+  {
+    "question": "What is robotics in AI?",
+    "answer": "Robotics involves designing machines that can perform tasks autonomously using AI.",
+    "keywords": ["robotics", "autonomous machines", "AI control", "sensors", "actuators", "automation", "intelligent robots"]
+  },
+  {
+    "question": "What is planning in AI?",
+    "answer": "Planning is the process of determining a sequence of actions to achieve a goal.",
+    "keywords": ["planning", "action sequence", "goal achievement", "AI strategy", "problem solving", "decision making", "state transitions"]
+  },
+  {
+    "question": "What is constraint satisfaction problem?",
+    "answer": "A constraint satisfaction problem involves finding values that satisfy a set of constraints.",
+    "keywords": ["CSP", "constraints", "variable assignment", "solution space", "problem solving", "AI search", "constraint solving"]
+  },
+  {
+    "question": "What is game playing in AI?",
+    "answer": "Game playing in AI involves designing algorithms that can make optimal decisions in games.",
+    "keywords": ["game playing", "AI strategy", "decision making", "minimax", "game tree", "competitive environment", "AI algorithms"]
+  },
+  {
+    "question": "What is minimax algorithm?",
+    "answer": "Minimax is an algorithm used in decision making that minimizes the possible loss for a worst case scenario.",
+    "keywords": ["minimax", "game tree", "optimal decision", "maximize minimize", "AI search", "game strategy", "adversarial search"]
+  },
+  {
+    "question": "What is alpha beta pruning?",
+    "answer": "Alpha beta pruning reduces the number of nodes evaluated in the minimax algorithm.",
+    "keywords": ["alpha beta pruning", "search optimization", "reduce nodes", "minimax improvement", "AI algorithm", "game tree", "efficiency"]
+  },
+  {
+    "question": "What is fuzzy logic?",
+    "answer": "Fuzzy logic deals with reasoning that is approximate rather than fixed and exact.",
+    "keywords": ["fuzzy logic", "approximate reasoning", "uncertainty", "degrees of truth", "AI reasoning", "soft computing", "decision making"]
+  },
+  {
+    "question": "What is uncertainty in AI?",
+    "answer": "Uncertainty refers to situations where information is incomplete or unpredictable.",
+    "keywords": ["uncertainty", "incomplete data", "probability", "AI reasoning", "decision making", "uncertain environment", "risk"]
+  },
+  {
+    "question": "What is probability in AI?",
+    "answer": "Probability is used in AI to model uncertainty and make predictions.",
+    "keywords": ["probability", "uncertainty modeling", "prediction", "statistical reasoning", "AI decision", "chance", "likelihood"]
+  },
+  {
+    "question": "What is Bayesian network?",
+    "answer": "A Bayesian network is a graphical model that represents probabilistic relationships among variables.",
+    "keywords": ["bayesian network", "probabilistic model", "graph structure", "conditional probability", "AI reasoning", "dependency", "uncertainty"]
+  },
+  {
+    "question": "What is state space search?",
+    "answer": "State space search is a problem solving method that explores all possible states to reach a goal state.",
+    "keywords": ["state space search", "state exploration", "initial state", "goal state", "problem solving", "search tree", "AI search"]
+  },
+  {
+    "question": "What is production system in AI?",
+    "answer": "A production system consists of rules, working memory, and control strategy used to solve problems.",
+    "keywords": ["production system", "rules", "working memory", "control strategy", "rule based system", "AI problem solving", "inference"]
+  },
+  {
+    "question": "What are types of production systems?",
+    "answer": "Production systems can be monotonic, non monotonic, partially commutative, and non commutative.",
+    "keywords": ["types of production system", "monotonic", "non monotonic", "commutative", "rule based", "AI system", "problem solving"]
+  },
+  {
+    "question": "What are problem characteristics in AI?",
+    "answer": "Problem characteristics define the nature of a problem such as observability, determinism, and complexity.",
+    "keywords": ["problem characteristics", "deterministic", "stochastic", "observable", "environment type", "AI problem", "complexity"]
+  },
+  {
+    "question": "What is problem formulation?",
+    "answer": "Problem formulation defines initial state, actions, and goal to solve a problem.",
+    "keywords": ["problem formulation", "initial state", "goal state", "actions", "state space", "problem definition", "AI solving"]
+  },
+  {
+    "question": "What is depth limited search?",
+    "answer": "Depth limited search is DFS with a fixed depth limit to avoid infinite loops.",
+    "keywords": ["depth limited search", "DFS limit", "depth control", "search algorithm", "avoid infinite loop", "AI search", "tree exploration"]
+  },
+  {
+    "question": "What is iterative deepening DFS?",
+    "answer": "Iterative deepening repeatedly applies depth limited search with increasing depth.",
+    "keywords": ["iterative deepening", "DFS repeated", "depth increase", "memory efficient", "search algorithm", "AI search", "optimal solution"]
+  },
+  {
+    "question": "What is bidirectional search?",
+    "answer": "Bidirectional search runs two simultaneous searches from start and goal to meet in the middle.",
+    "keywords": ["bidirectional search", "two way search", "start and goal", "meeting point", "search efficiency", "AI algorithm", "graph search"]
+  },
+  {
+    "question": "What is hill climbing algorithm?",
+    "answer": "Hill climbing is a local search algorithm that continuously moves towards better states.",
+    "keywords": ["hill climbing", "local search", "optimization", "greedy approach", "state improvement", "AI algorithm", "heuristic"]
+  },
+  {
+    "question": "What is simulated annealing?",
+    "answer": "Simulated annealing is a probabilistic technique to avoid local optima by allowing worse moves.",
+    "keywords": ["simulated annealing", "probabilistic search", "avoid local optimum", "random moves", "optimization", "AI algorithm", "temperature parameter"]
+  },
+  {
+    "question": "What is genetic algorithm?",
+    "answer": "Genetic algorithm is an optimization technique based on natural selection and evolution.",
+    "keywords": ["genetic algorithm", "evolution", "selection", "crossover", "mutation", "optimization", "AI algorithm"]
+  },
+  {
+    "question": "What is AO star algorithm?",
+    "answer": "AO star algorithm is used for solving problems represented as AND-OR graphs.",
+    "keywords": ["AO star", "AND OR graph", "problem solving", "heuristic search", "optimal path", "AI search", "graph algorithm"]
+  },
+  {
+    "question": "What is game tree?",
+    "answer": "Game tree represents all possible moves in a game as a tree structure.",
+    "keywords": ["game tree", "game states", "decision tree", "AI game", "search tree", "minimax", "strategy"]
+  },
+  {
+    "question": "What is alpha beta cutoff?",
+    "answer": "Alpha beta cutoff eliminates branches in game tree that do not affect final decision.",
+    "keywords": ["alpha beta cutoff", "pruning", "game tree", "search optimization", "minimax", "AI algorithm", "efficiency"]
+  },
+  {
+    "question": "What is resolution in AI?",
+    "answer": "Resolution is a rule of inference used in logic to derive conclusions.",
+    "keywords": ["resolution", "inference rule", "logic reasoning", "propositional logic", "AI inference", "proof method", "logical deduction"]
+  },
+  {
+    "question": "What are reasoning patterns?",
+    "answer": "Reasoning patterns define how conclusions are derived using logical rules.",
+    "keywords": ["reasoning patterns", "logical reasoning", "deduction", "inference", "AI logic", "problem solving", "knowledge processing"]
+  },
+  {
+    "question": "What is first order logic?",
+    "answer": "First order logic represents objects, relations, and quantifiers for knowledge representation.",
+    "keywords": ["first order logic", "predicate logic", "quantifiers", "relations", "AI reasoning", "knowledge representation", "logic system"]
+  },
+  {
+    "question": "What is fuzzy set?",
+    "answer": "Fuzzy set allows elements to have degrees of membership rather than binary membership.",
+    "keywords": ["fuzzy set", "membership function", "degrees of truth", "uncertainty", "fuzzy logic", "soft computing", "AI reasoning"]
+  },
+  {
+    "question": "What is fuzzy relation?",
+    "answer": "Fuzzy relation defines relationships between elements using degrees of membership.",
+    "keywords": ["fuzzy relation", "membership degree", "relation mapping", "fuzzy logic", "data relation", "uncertainty", "AI system"]
+  },
+  {
+    "question": "What is fuzzy rule?",
+    "answer": "Fuzzy rule is an IF THEN rule used in fuzzy logic systems.",
+    "keywords": ["fuzzy rule", "if then rule", "fuzzy inference", "logic system", "decision making", "AI reasoning", "rule based"]
+  },
+  {
+    "question": "What is fuzzy inference system?",
+    "answer": "Fuzzy inference system maps inputs to outputs using fuzzy logic rules.",
+    "keywords": ["fuzzy inference system", "input output mapping", "fuzzy rules", "decision system", "AI model", "fuzzy logic", "reasoning"]
+  },
+  {
+    "question": "What is fuzzification?",
+    "answer": "Fuzzification converts crisp input values into fuzzy values.",
+    "keywords": ["fuzzification", "crisp to fuzzy", "input conversion", "membership function", "fuzzy system", "AI processing", "data transformation"]
+  },
+  {
+    "question": "What is defuzzification?",
+    "answer": "Defuzzification converts fuzzy output into crisp values.",
+    "keywords": ["defuzzification", "fuzzy to crisp", "output conversion", "decision output", "fuzzy system", "AI processing", "data conversion"]
+  },
+  {
+    "question": "What is fuzzy controller?",
+    "answer": "A fuzzy controller uses fuzzy logic to control systems based on rules.",
+    "keywords": ["fuzzy controller", "control system", "fuzzy rules", "decision making", "automation", "AI system", "control logic"]
+  },
+  {
+    "question": "What is planning in AI?",
+    "answer": "Planning is the process of generating a sequence of actions to achieve a goal.",
+    "keywords": ["planning", "action sequence", "goal achievement", "AI strategy", "problem solving", "decision making", "state transitions"]
+  },
+  {
+    "question": "What is partial order planning?",
+    "answer": "Partial order planning allows actions to be performed in flexible order.",
+    "keywords": ["partial order planning", "flexible sequence", "planning strategy", "AI planning", "action ordering", "goal based", "problem solving"]
+  },
+  {
+    "question": "What is hierarchical planning?",
+    "answer": "Hierarchical planning breaks problems into smaller sub tasks.",
+    "keywords": ["hierarchical planning", "task decomposition", "sub problems", "planning levels", "AI planning", "problem solving", "structure"]
+  },
+  {
+    "question": "What is conditional planning?",
+    "answer": "Conditional planning creates plans based on different possible conditions.",
+    "keywords": ["conditional planning", "decision branches", "uncertain conditions", "AI planning", "dynamic plan", "problem solving", "logic"]
+  },
+  {
+    "question": "What is STRIPS?",
+    "answer": "STRIPS is a planning system used to define actions with preconditions and effects.",
+    "keywords": ["STRIPS", "planning system", "preconditions", "effects", "AI planning", "action model", "problem solving"]
+  },
+  {
+    "question": "What is blocks world problem?",
+    "answer": "Blocks world is a planning problem involving stacking blocks to achieve a goal configuration.",
+    "keywords": ["blocks world", "planning problem", "block stacking", "goal state", "AI planning", "state transition", "problem solving"]
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "question": "What is an operating system?",
+    "answer": "An operating system is system software that manages hardware resources and provides services for application programs.",
+    "keywords": ["operating system", "system software", "resource management", "hardware control", "software interface", "process management", "user interface"]
+  },
+  {
+    "question": "What is a process?",
+    "answer": "A process is a program in execution along with its current state and allocated resources.",
+    "keywords": ["process", "program execution", "process state", "allocated resources", "execution context", "running program", "process control block"]
+  },
+  {
+    "question": "What is process scheduling?",
+    "answer": "Process scheduling is the method used by the operating system to decide which process runs at a given time.",
+    "keywords": ["process scheduling", "CPU allocation", "scheduler", "process selection", "execution order", "time sharing", "context switching"]
+  },
+  {
+    "question": "What is a thread?",
+    "answer": "A thread is the smallest unit of execution within a process that shares resources with other threads.",
+    "keywords": ["thread", "lightweight process", "shared memory", "execution unit", "parallel execution", "multithreading", "process component"]
+  },
+  {
+    "question": "What is context switching?",
+    "answer": "Context switching is the process of saving the state of a process and loading the state of another process.",
+    "keywords": ["context switching", "process state saving", "CPU switch", "task switching", "execution change", "scheduler operation", "state restoration"]
+  },
+  {
+    "question": "What is CPU scheduling?",
+    "answer": "CPU scheduling determines which process gets CPU time and for how long.",
+    "keywords": ["CPU scheduling", "process execution", "time allocation", "scheduler algorithm", "process priority", "CPU utilization", "task management"]
+  },
+  {
+    "question": "What is FCFS scheduling?",
+    "answer": "First Come First Serve scheduling executes processes in the order they arrive.",
+    "keywords": ["FCFS", "first come first serve", "arrival order", "queue scheduling", "non preemptive", "simple scheduling", "process queue"]
+  },
+  {
+    "question": "What is SJF scheduling?",
+    "answer": "Shortest Job First scheduling selects the process with the smallest execution time.",
+    "keywords": ["SJF", "shortest job", "execution time", "minimum burst", "optimal scheduling", "non preemptive", "waiting time reduction"]
+  },
+  {
+    "question": "What is Round Robin scheduling?",
+    "answer": "Round Robin scheduling assigns a fixed time slice to each process in a cyclic manner.",
+    "keywords": ["round robin", "time quantum", "cyclic scheduling", "preemptive scheduling", "fair allocation", "process rotation", "time sharing"]
+  },
+  {
+    "question": "What is priority scheduling?",
+    "answer": "Priority scheduling executes processes based on their priority levels.",
+    "keywords": ["priority scheduling", "process priority", "high priority first", "CPU allocation", "preemptive option", "low priority wait", "scheduler decision"]
+  },
+  {
+    "question": "What is deadlock?",
+    "answer": "Deadlock is a situation where processes are unable to proceed because each is waiting for resources held by others.",
+    "keywords": ["deadlock", "resource waiting", "circular wait", "process blocking", "mutual dependency", "no progress", "resource allocation"]
+  },
+  {
+    "question": "What are deadlock conditions?",
+    "answer": "Deadlock occurs when mutual exclusion, hold and wait, no preemption, and circular wait conditions are present.",
+    "keywords": ["deadlock conditions", "mutual exclusion", "hold and wait", "no preemption", "circular wait", "resource locking", "process blocking"]
+  },
+  {
+    "question": "What is starvation?",
+    "answer": "Starvation occurs when a process is denied CPU resources for a long time due to scheduling policies.",
+    "keywords": ["starvation", "resource deprivation", "low priority", "process waiting", "unfair scheduling", "CPU denial", "infinite wait"]
+  },
+  {
+    "question": "What is aging?",
+    "answer": "Aging is a technique used to gradually increase the priority of waiting processes to prevent starvation.",
+    "keywords": ["aging", "priority increase", "prevent starvation", "waiting process", "scheduler improvement", "fair execution", "dynamic priority"]
+  },
+  {
+    "question": "What is semaphore?",
+    "answer": "A semaphore is a synchronization tool used to control access to shared resources.",
+    "keywords": ["semaphore", "synchronization", "resource control", "critical section", "binary semaphore", "counting semaphore", "process coordination"]
+  },
+  {
+    "question": "What is mutex?",
+    "answer": "Mutex is a mutual exclusion mechanism that allows only one thread to access a resource at a time.",
+    "keywords": ["mutex", "mutual exclusion", "single access", "thread locking", "critical section", "resource protection", "synchronization"]
+  },
+  {
+    "question": "What is critical section?",
+    "answer": "Critical section is a part of the code where shared resources are accessed and must be protected.",
+    "keywords": ["critical section", "shared resource", "mutual exclusion", "synchronization", "race condition", "process coordination", "resource access"]
+  },
+  {
+    "question": "What is race condition?",
+    "answer": "Race condition occurs when multiple processes access shared data concurrently and the result depends on execution order.",
+    "keywords": ["race condition", "concurrent access", "shared data", "execution order", "data inconsistency", "parallel execution", "synchronization issue"]
+  },
+  {
+    "question": "What is memory management?",
+    "answer": "Memory management is the process of managing computer memory efficiently by allocating and deallocating space.",
+    "keywords": ["memory management", "allocation", "deallocation", "RAM usage", "process memory", "efficient usage", "memory control"]
+  },
+  {
+    "question": "What is paging?",
+    "answer": "Paging is a memory management technique that divides memory into fixed size pages.",
+    "keywords": ["paging", "fixed size pages", "memory division", "page table", "virtual memory", "frame allocation", "memory mapping"]
+  },
+  {
+    "question": "What is segmentation?",
+    "answer": "Segmentation divides memory into variable sized segments based on logical divisions of programs.",
+    "keywords": ["segmentation", "variable size", "logical division", "memory segments", "address mapping", "segment table", "memory organization"]
+  },
+  {
+    "question": "What is virtual memory?",
+    "answer": "Virtual memory is a technique that allows execution of processes larger than physical memory using disk space.",
+    "keywords": ["virtual memory", "logical memory", "disk storage", "swap space", "memory extension", "page swapping", "large programs"]
+  },
+  {
+    "question": "What is thrashing?",
+    "answer": "Thrashing occurs when the system spends more time swapping pages than executing processes.",
+    "keywords": ["thrashing", "excessive swapping", "low performance", "page fault", "memory overload", "CPU idle", "system slowdown"]
+  },
+  {
+    "question": "What is page fault?",
+    "answer": "Page fault occurs when a required page is not found in memory and needs to be loaded from disk.",
+    "keywords": ["page fault", "missing page", "disk access", "memory load", "virtual memory", "page table", "interrupt"]
+  },
+  {
+    "question": "What is swapping?",
+    "answer": "Swapping is the process of moving processes between main memory and secondary storage.",
+    "keywords": ["swapping", "memory transfer", "disk storage", "process movement", "RAM management", "memory optimization", "process loading"]
+  },
+  {
+    "question": "What is demand paging?",
+    "answer": "Demand paging is a memory management technique where pages are loaded into memory only when they are needed.",
+    "keywords": ["demand paging", "lazy loading", "page on request", "memory optimization", "virtual memory", "page fault handling", "disk to RAM"]
+  },
+  {
+    "question": "What is page replacement algorithm?",
+    "answer": "Page replacement algorithms decide which memory page to replace when a new page needs to be loaded.",
+    "keywords": ["page replacement", "memory page removal", "page fault handling", "frame allocation", "replacement strategy", "memory management", "virtual memory"]
+  },
+  {
+    "question": "What is FIFO page replacement?",
+    "answer": "FIFO replaces the oldest page in memory when a new page is required.",
+    "keywords": ["FIFO replacement", "first in first out", "oldest page", "queue structure", "memory replacement", "page fault", "simple algorithm"]
+  },
+  {
+    "question": "What is LRU page replacement?",
+    "answer": "LRU replaces the least recently used page when a new page needs to be loaded.",
+    "keywords": ["LRU", "least recently used", "recent access", "memory replacement", "page fault handling", "optimal approach", "usage tracking"]
+  },
+  {
+    "question": "What is optimal page replacement?",
+    "answer": "Optimal page replacement replaces the page that will not be used for the longest period in the future.",
+    "keywords": ["optimal replacement", "future use", "minimum faults", "theoretical model", "best algorithm", "page selection", "memory efficiency"]
+  },
+  {
+    "question": "What is file system?",
+    "answer": "A file system is a method used by operating systems to organize, store, and retrieve data on storage devices.",
+    "keywords": ["file system", "data organization", "storage management", "file access", "disk structure", "directory management", "data retrieval"]
+  },
+  {
+    "question": "What is a file?",
+    "answer": "A file is a collection of related information stored on secondary storage.",
+    "keywords": ["file", "data storage", "secondary memory", "information collection", "file structure", "data unit", "storage entity"]
+  },
+  {
+    "question": "What is directory structure?",
+    "answer": "Directory structure organizes files into hierarchical folders for easy management.",
+    "keywords": ["directory structure", "file hierarchy", "folder organization", "tree structure", "file management", "path navigation", "storage organization"]
+  },
+  {
+    "question": "What is a single level directory?",
+    "answer": "A single level directory contains all files in one directory without subdirectories.",
+    "keywords": ["single level directory", "flat structure", "no hierarchy", "file storage", "simple organization", "no subfolders", "file access"]
+  },
+  {
+    "question": "What is two level directory?",
+    "answer": "Two level directory structure separates user files into different directories for each user.",
+    "keywords": ["two level directory", "user separation", "file grouping", "directory management", "user isolation", "file access control", "structure improvement"]
+  },
+  {
+    "question": "What is hierarchical directory?",
+    "answer": "Hierarchical directory organizes files in a tree structure with multiple levels of directories.",
+    "keywords": ["hierarchical directory", "tree structure", "multiple levels", "folder nesting", "file organization", "path system", "directory tree"]
+  },
+  {
+    "question": "What is file allocation?",
+    "answer": "File allocation determines how file data is stored on disk blocks.",
+    "keywords": ["file allocation", "disk blocks", "data placement", "storage method", "file mapping", "block allocation", "disk management"]
+  },
+  {
+    "question": "What is contiguous allocation?",
+    "answer": "Contiguous allocation stores file data in consecutive memory blocks.",
+    "keywords": ["contiguous allocation", "sequential blocks", "fast access", "disk layout", "storage continuity", "file storage", "memory blocks"]
+  },
+  {
+    "question": "What is linked allocation?",
+    "answer": "Linked allocation stores file data in non-contiguous blocks linked by pointers.",
+    "keywords": ["linked allocation", "pointer linking", "non contiguous", "file blocks", "dynamic storage", "disk structure", "file access"]
+  },
+  {
+    "question": "What is indexed allocation?",
+    "answer": "Indexed allocation uses an index block to store addresses of file data blocks.",
+    "keywords": ["indexed allocation", "index block", "block addresses", "random access", "file indexing", "disk mapping", "storage method"]
+  },
+  {
+    "question": "What is disk scheduling?",
+    "answer": "Disk scheduling decides the order in which disk I/O requests are processed.",
+    "keywords": ["disk scheduling", "I/O requests", "seek time", "disk head movement", "request order", "performance optimization", "storage access"]
+  },
+  {
+    "question": "What is FCFS disk scheduling?",
+    "answer": "FCFS disk scheduling processes requests in the order they arrive.",
+    "keywords": ["FCFS disk", "arrival order", "simple scheduling", "disk requests", "queue processing", "no optimization", "sequential service"]
+  },
+  {
+    "question": "What is SSTF scheduling?",
+    "answer": "SSTF selects the disk request closest to the current head position.",
+    "keywords": ["SSTF", "shortest seek time", "head movement", "closest request", "disk optimization", "seek reduction", "I/O efficiency"]
+  },
+  {
+    "question": "What is SCAN algorithm?",
+    "answer": "SCAN moves the disk arm in one direction servicing requests and then reverses direction.",
+    "keywords": ["SCAN", "elevator algorithm", "disk arm movement", "directional scan", "seek optimization", "bidirectional movement", "disk scheduling"]
+  },
+  {
+    "question": "What is C-SCAN algorithm?",
+    "answer": "C-SCAN moves in one direction servicing requests and jumps back to the start without servicing in reverse.",
+    "keywords": ["C-SCAN", "circular scan", "one direction", "uniform wait time", "disk scheduling", "head reset", "request handling"]
+  },
+  {
+    "question": "What is interrupt?",
+    "answer": "An interrupt is a signal that temporarily stops CPU execution to handle an event.",
+    "keywords": ["interrupt", "CPU signal", "execution pause", "event handling", "hardware interrupt", "software interrupt", "control transfer"]
+  },
+  {
+    "question": "What is system call?",
+    "answer": "System call is an interface that allows user programs to request services from the operating system.",
+    "keywords": ["system call", "OS interface", "user to kernel", "service request", "API call", "resource access", "privileged operation"]
+  },
+  {
+    "question": "What is kernel?",
+    "answer": "Kernel is the core component of an operating system that manages system resources and hardware.",
+    "keywords": ["kernel", "core OS", "resource control", "hardware management", "process control", "memory management", "system operations"]
+  },
+  {
+    "question": "What is user mode and kernel mode?",
+    "answer": "User mode runs applications with limited access while kernel mode runs system operations with full access.",
+    "keywords": ["user mode", "kernel mode", "privilege levels", "restricted access", "system control", "CPU modes", "security"]
+  },
+  {
+    "question": "What is system booting?",
+    "answer": "System booting is the process of starting a computer and loading the operating system into memory.",
+    "keywords": ["system booting", "startup process", "OS loading", "boot loader", "memory initialization", "power on", "system initialization"]
+  },
+  {
+    "question": "What is bootstrap loader?",
+    "answer": "Bootstrap loader is a program that loads the operating system into memory during system startup.",
+    "keywords": ["bootstrap loader", "boot program", "OS loading", "startup sequence", "memory loading", "initial program", "system start"]
+  },
+  {
+    "question": "What is multiprogramming?",
+    "answer": "Multiprogramming allows multiple programs to reside in memory and be executed by the CPU alternately.",
+    "keywords": ["multiprogramming", "multiple processes", "CPU utilization", "memory sharing", "task switching", "parallel presence", "efficiency"]
+  },
+  {
+    "question": "What is multitasking?",
+    "answer": "Multitasking allows multiple tasks to run seemingly simultaneously by rapidly switching between them.",
+    "keywords": ["multitasking", "task switching", "time sharing", "parallel execution illusion", "CPU sharing", "multiple programs", "user interaction"]
+  },
+  {
+    "question": "What is multiprocessing?",
+    "answer": "Multiprocessing uses multiple CPUs to execute processes simultaneously for improved performance.",
+    "keywords": ["multiprocessing", "multiple CPUs", "parallel execution", "high performance", "CPU coordination", "process distribution", "system efficiency"]
+  },
+  {
+    "question": "What is real time operating system?",
+    "answer": "A real time operating system processes data and events within strict time constraints.",
+    "keywords": ["real time OS", "time constraint", "immediate response", "deterministic behavior", "embedded systems", "low latency", "event handling"]
+  },
+  {
+    "question": "What is batch operating system?",
+    "answer": "Batch operating system executes jobs in batches without user interaction.",
+    "keywords": ["batch OS", "job processing", "no interaction", "queue jobs", "sequential execution", "offline processing", "job scheduling"]
+  },
+  {
+    "question": "What is time sharing system?",
+    "answer": "Time sharing system allows multiple users to share system resources simultaneously.",
+    "keywords": ["time sharing", "multiple users", "resource sharing", "CPU time slice", "interactive system", "user access", "concurrent execution"]
+  },
+  {
+    "question": "What is distributed operating system?",
+    "answer": "Distributed OS manages multiple computers and makes them appear as a single system.",
+    "keywords": ["distributed OS", "multiple systems", "network coordination", "resource sharing", "parallel systems", "distributed processing", "system integration"]
+  },
+  {
+    "question": "What is network operating system?",
+    "answer": "Network OS manages network resources and allows communication between connected systems.",
+    "keywords": ["network OS", "network management", "resource sharing", "communication", "client server", "remote access", "network control"]
+  },
+  {
+    "question": "What is IPC?",
+    "answer": "Interprocess communication allows processes to communicate and share data with each other.",
+    "keywords": ["IPC", "process communication", "data sharing", "message passing", "shared memory", "synchronization", "process coordination"]
+  },
+  {
+    "question": "What is shared memory?",
+    "answer": "Shared memory allows multiple processes to access the same memory space for communication.",
+    "keywords": ["shared memory", "common memory", "fast communication", "data exchange", "process interaction", "memory sharing", "IPC method"]
+  },
+  {
+    "question": "What is message passing?",
+    "answer": "Message passing is a method of communication where processes send and receive messages.",
+    "keywords": ["message passing", "send receive", "process communication", "IPC method", "data exchange", "communication channel", "process coordination"]
+  },
+  {
+    "question": "What is pipe?",
+    "answer": "A pipe is a communication mechanism that allows data flow between processes.",
+    "keywords": ["pipe", "data stream", "process communication", "IPC", "unidirectional flow", "data transfer", "process link"]
+  },
+  {
+    "question": "What is named pipe?",
+    "answer": "Named pipe is a pipe with a specific name used for communication between unrelated processes.",
+    "keywords": ["named pipe", "FIFO", "interprocess communication", "process link", "data sharing", "persistent pipe", "communication channel"]
+  },
+  {
+    "question": "What is socket?",
+    "answer": "Socket is an endpoint for communication between two machines over a network.",
+    "keywords": ["socket", "network communication", "endpoint", "data transmission", "client server", "TCP IP", "communication interface"]
+  },
+  {
+    "question": "What is system throughput?",
+    "answer": "System throughput is the number of processes completed per unit time.",
+    "keywords": ["throughput", "process completion", "performance metric", "system efficiency", "task rate", "CPU output", "execution speed"]
+  },
+  {
+    "question": "What is turnaround time?",
+    "answer": "Turnaround time is the total time taken from submission of a process to its completion.",
+    "keywords": ["turnaround time", "process completion", "submission to finish", "performance metric", "execution time", "process lifecycle", "time measurement"]
+  },
+  {
+    "question": "What is waiting time?",
+    "answer": "Waiting time is the time a process spends in the ready queue waiting for CPU allocation.",
+    "keywords": ["waiting time", "ready queue", "CPU allocation delay", "process delay", "scheduler time", "execution wait", "performance metric"]
+  },
+  {
+    "question": "What is response time?",
+    "answer": "Response time is the time taken for a system to respond to a request after it is submitted.",
+    "keywords": ["response time", "initial response", "user request", "latency", "interactive system", "delay measurement", "performance"]
+  },
+  {
+    "question": "What is load balancing?",
+    "answer": "Load balancing distributes workload evenly across system resources to improve performance.",
+    "keywords": ["load balancing", "resource distribution", "system efficiency", "workload sharing", "performance optimization", "CPU utilization", "task distribution"]
+  },
+  {
+    "question": "What is fragmentation?",
+    "answer": "Fragmentation is the inefficient use of memory where free space is divided into small unusable pieces.",
+    "keywords": ["fragmentation", "memory waste", "external fragmentation", "internal fragmentation", "memory blocks", "allocation issue", "space inefficiency"]
+  },
+  {
+    "question": "What is internal fragmentation?",
+    "answer": "Internal fragmentation occurs when allocated memory is larger than required, leaving unused space.",
+    "keywords": ["internal fragmentation", "unused space", "fixed allocation", "memory waste", "allocation mismatch", "block size", "inefficiency"]
+  },
+  {
+    "question": "What is external fragmentation?",
+    "answer": "External fragmentation occurs when free memory is scattered in small blocks and cannot be used effectively.",
+    "keywords": ["external fragmentation", "scattered memory", "allocation problem", "free space", "memory blocks", "inefficiency", "compaction need"]
+  },
+  {
+    "question": "What is memory compaction?",
+    "answer": "Memory compaction is a technique used to eliminate external fragmentation by rearranging memory contents to create contiguous free space.",
+    "keywords": ["memory compaction", "external fragmentation", "contiguous space", "memory rearrangement", "defragmentation", "free space merging", "memory optimization"]
+  },
+  {
+    "question": "What is spooling?",
+    "answer": "Spooling is a process where data is temporarily stored in a buffer to be processed sequentially by a device like a printer.",
+    "keywords": ["spooling", "buffer storage", "print queue", "device management", "data staging", "sequential processing", "I O handling"]
+  },
+  {
+    "question": "What is buffering?",
+    "answer": "Buffering is the temporary storage of data in memory while it is being transferred between devices or processes.",
+    "keywords": ["buffering", "temporary storage", "data transfer", "memory buffer", "I O efficiency", "data handling", "process communication"]
+  },
+  {
+    "question": "What is caching?",
+    "answer": "Caching is storing frequently accessed data in a faster storage area to reduce access time.",
+    "keywords": ["caching", "fast access", "cache memory", "data reuse", "performance improvement", "memory hierarchy", "reduced latency"]
+  },
+  {
+    "question": "What is demand segmentation?",
+    "answer": "Demand segmentation loads segments into memory only when they are required, similar to demand paging.",
+    "keywords": ["demand segmentation", "on demand loading", "memory segments", "lazy loading", "virtual memory", "segment table", "memory efficiency"]
+  },
+  {
+    "question": "What is page table?",
+    "answer": "Page table is a data structure used to map virtual addresses to physical addresses in paging.",
+    "keywords": ["page table", "address mapping", "virtual memory", "physical memory", "page translation", "memory management", "mapping structure"]
+  },
+  {
+    "question": "What is segmentation fault?",
+    "answer": "Segmentation fault occurs when a program tries to access memory that it is not allowed to access.",
+    "keywords": ["segmentation fault", "invalid memory access", "protection error", "illegal access", "memory violation", "process crash", "access control"]
+  },
+  {
+    "question": "What is TLB?",
+    "answer": "Translation Lookaside Buffer is a cache that stores recent address translations to speed up memory access.",
+    "keywords": ["TLB", "address cache", "fast translation", "memory access", "virtual to physical", "cache memory", "performance optimization"]
+  },
+  {
+    "question": "What is page replacement fault rate?",
+    "answer": "Page fault rate is the frequency at which page faults occur during program execution.",
+    "keywords": ["page fault rate", "fault frequency", "memory access", "performance metric", "virtual memory", "page loading", "execution efficiency"]
+  },
+  {
+    "question": "What is working set model?",
+    "answer": "Working set model keeps track of pages currently needed by a process to avoid excessive page faults.",
+    "keywords": ["working set", "active pages", "memory requirement", "page tracking", "thrashing control", "process memory", "performance improvement"]
+  },
+  {
+    "question": "What is locality of reference?",
+    "answer": "Locality of reference means programs tend to access the same set of memory locations repeatedly over a short time.",
+    "keywords": ["locality of reference", "temporal locality", "spatial locality", "memory access pattern", "cache efficiency", "performance optimization", "data reuse"]
+  },
+  {
+    "question": "What is temporal locality?",
+    "answer": "Temporal locality refers to the reuse of specific data or resources within a short period.",
+    "keywords": ["temporal locality", "recent access", "data reuse", "cache usage", "memory efficiency", "time based locality", "performance"]
+  },
+  {
+    "question": "What is spatial locality?",
+    "answer": "Spatial locality refers to accessing data locations that are physically close to each other.",
+    "keywords": ["spatial locality", "nearby memory", "data clustering", "cache performance", "memory access", "address proximity", "efficiency"]
+  },
+  {
+    "question": "What is I O management?",
+    "answer": "I O management controls input and output devices and manages communication between system and peripherals.",
+    "keywords": ["I O management", "device control", "input output", "hardware interface", "device drivers", "data transfer", "system communication"]
+  },
+  {
+    "question": "What is device driver?",
+    "answer": "A device driver is software that allows the operating system to communicate with hardware devices.",
+    "keywords": ["device driver", "hardware communication", "OS interface", "device control", "driver software", "hardware access", "system interaction"]
+  },
+  {
+    "question": "What is polling?",
+    "answer": "Polling is a method where the CPU repeatedly checks the status of a device to see if it needs attention.",
+    "keywords": ["polling", "device checking", "CPU wait", "status monitoring", "busy waiting", "I O handling", "hardware interaction"]
+  },
+  {
+    "question": "What is interrupt driven I O?",
+    "answer": "Interrupt driven I O allows devices to signal the CPU when they are ready, reducing CPU idle time.",
+    "keywords": ["interrupt driven I O", "CPU signal", "device ready", "interrupt handling", "efficient I O", "event driven", "performance"]
+  },
+  {
+    "question": "What is DMA?",
+    "answer": "Direct Memory Access allows devices to transfer data directly to memory without CPU intervention.",
+    "keywords": ["DMA", "direct memory access", "CPU bypass", "data transfer", "high speed", "device communication", "memory access"]
+  },
+  {
+    "question": "What is RAID?",
+    "answer": "RAID is a storage technology that combines multiple disks for redundancy and performance improvement.",
+    "keywords": ["RAID", "disk array", "data redundancy", "performance", "fault tolerance", "storage system", "data protection"]
+  },
+  {
+    "question": "What is file protection?",
+    "answer": "File protection ensures that only authorized users can access or modify files.",
+    "keywords": ["file protection", "access control", "security", "user permission", "data safety", "file access", "authorization"]
+  },
+  {
+    "question": "What is access control list?",
+    "answer": "ACL defines permissions for users to access specific resources in a system.",
+    "keywords": ["ACL", "access control", "user permission", "security policy", "resource access", "authorization", "file system"]
+  },
+  {
+    "question": "What is authentication?",
+    "answer": "Authentication verifies the identity of a user before granting access to the system.",
+    "keywords": ["authentication", "user verification", "login system", "security", "identity check", "access control", "system protection"]
+  },
+  {
+    "question": "What is authorization?",
+    "answer": "Authorization determines what resources a user is allowed to access after authentication.",
+    "keywords": ["authorization", "access rights", "permission control", "user privileges", "security policy", "resource access", "system control"]
+  },
+  {
+    "question": "What is deadlock prevention?",
+    "answer": "Deadlock prevention avoids deadlocks by ensuring at least one necessary condition is not allowed.",
+    "keywords": ["deadlock prevention", "avoid conditions", "resource control", "system safety", "process management", "no circular wait", "prevention technique"]
+  },
+  {
+    "question": "What is deadlock avoidance?",
+    "answer": "Deadlock avoidance ensures the system stays in a safe state by carefully allocating resources.",
+    "keywords": ["deadlock avoidance", "safe state", "resource allocation", "bankers algorithm", "system stability", "process safety", "dynamic decision"]
+  }
+]

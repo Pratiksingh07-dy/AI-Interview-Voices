@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is an array?",
+    "answer": "An array is a collection of elements stored in contiguous memory locations and accessed using indices.",
+    "keywords": ["array", "contiguous memory", "index access"]
+  },
+  {
+    "question": "What is a linked list?",
+    "answer": "A linked list is a data structure where elements are stored in nodes connected through pointers.",
+    "keywords": ["linked list", "nodes", "pointer connection"]
+  },
+  {
+    "question": "What is a stack?",
+    "answer": "A stack is a linear data structure that follows Last In First Out where elements are inserted and removed from the top.",
+    "keywords": ["stack", "LIFO", "top insertion"]
+  },
+  {
+    "question": "What is a queue?",
+    "answer": "A queue is a linear data structure that follows First In First Out where elements are inserted at rear and removed from front.",
+    "keywords": ["queue", "FIFO", "enqueue dequeue"]
+  },
+  {
+    "question": "Explain recursion.",
+    "answer": "Recursion is a technique where a function calls itself repeatedly until a base condition is met.",
+    "keywords": ["recursion", "base condition", "call stack"]
+  },
+  {
+    "question": "What is binary search?",
+    "answer": "Binary search is an algorithm that finds an element in a sorted array by repeatedly dividing the search space in half.",
+    "keywords": ["binary search", "sorted array", "logarithmic time"]
+  },
+  {
+    "question": "Explain quicksort.",
+    "answer": "Quicksort is a divide and conquer algorithm that selects a pivot and partitions the array around it recursively.",
+    "keywords": ["divide and conquer", "pivot element", "recursive partitioning"]
+  },
+  {
+    "question": "Explain merge sort.",
+    "answer": "Merge sort divides the array into halves and merges sorted halves to produce a fully sorted array.",
+    "keywords": ["divide array", "merge sorted halves", "recursion"]
+  },
+  {
+    "question": "What is time complexity?",
+    "answer": "Time complexity measures how the execution time of an algorithm grows with respect to input size.",
+    "keywords": ["time complexity", "input size", "big O notation"]
+  },
+  {
+    "question": "What is space complexity?",
+    "answer": "Space complexity measures the amount of memory required by an algorithm during execution.",
+    "keywords": ["space complexity", "memory usage", "auxiliary space"]
+  },
+  {
+    "question": "What is a tree?",
+    "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges with a single root node.",
+    "keywords": ["tree", "hierarchical structure", "root node"]
+  },
+  {
+    "question": "What is a binary tree?",
+    "answer": "A binary tree is a tree data structure where each node has at most two children called left and right.",
+    "keywords": ["binary tree", "left child", "right child"]
+  },
+  {
+    "question": "What is a binary search tree?",
+    "answer": "A binary search tree is a tree where values in the left subtree are smaller and values in the right subtree are greater.",
+    "keywords": ["BST", "ordered tree", "left smaller right larger"]
+  },
+  {
+    "question": "What is a graph?",
+    "answer": "A graph is a collection of vertices connected by edges representing relationships between nodes.",
+    "keywords": ["graph", "vertices", "edges"]
+  },
+  {
+    "question": "What is BFS?",
+    "answer": "Breadth First Search is a graph traversal algorithm that explores nodes level by level using a queue.",
+    "keywords": ["BFS", "level traversal", "queue"]
+  },
+  {
+    "question": "What is DFS?",
+    "answer": "Depth First Search is a graph traversal algorithm that explores nodes deeply before backtracking using recursion or stack.",
+    "keywords": ["DFS", "depth traversal", "recursion stack"]
+  },
+  {
+    "question": "What is a heap?",
+    "answer": "A heap is a complete binary tree that satisfies the heap property and is commonly used in priority queues.",
+    "keywords": ["heap", "complete binary tree", "priority queue"]
+  },
+  {
+    "question": "What is a hash table?",
+    "answer": "A hash table stores key value pairs and uses a hash function to compute an index for fast retrieval.",
+    "keywords": ["hash table", "hash function", "key value mapping"]
+  },
+  {
+    "question": "What is dynamic programming?",
+    "answer": "Dynamic programming is a technique that solves problems by breaking them into overlapping subproblems and storing results.",
+    "keywords": ["dynamic programming", "overlapping subproblems", "optimal substructure"]
+  },
+  {
+    "question": "What is greedy algorithm?",
+    "answer": "A greedy algorithm makes the locally optimal choice at each step in hopes of finding a global optimum solution.",
+    "keywords": ["greedy algorithm", "local optimum", "optimization"]
+  },
+  {
+    "question": "What is backtracking?",
+    "answer": "Backtracking is a problem-solving technique that explores all possible solutions and abandons a path when it determines it cannot lead to a valid solution.",
+    "keywords": ["backtracking", "explore solutions", "prune invalid paths"]
+  },
+  {
+    "question": "What is divide and conquer?",
+    "answer": "Divide and conquer is a technique that breaks a problem into smaller subproblems, solves them independently, and combines their results.",
+    "keywords": ["divide problem", "solve subproblems", "combine results"]
+  },
+  {
+    "question": "What is a priority queue?",
+    "answer": "A priority queue is a data structure where elements are removed based on priority rather than insertion order, typically implemented using a heap.",
+    "keywords": ["priority queue", "heap structure", "priority removal"]
+  },
+  {
+    "question": "What is a deque?",
+    "answer": "A deque is a double-ended queue that allows insertion and deletion of elements from both the front and rear.",
+    "keywords": ["double ended queue", "front insertion", "rear deletion"]
+  },
+  {
+    "question": "What is hashing?",
+    "answer": "Hashing is a technique used to map data to fixed-size values using a hash function for efficient data retrieval.",
+    "keywords": ["hash function", "data mapping", "fast retrieval"]
+  },
+  {
+    "question": "What is collision resolution?",
+    "answer": "Collision resolution techniques handle cases where multiple keys map to the same hash index, such as chaining or open addressing.",
+    "keywords": ["collision handling", "chaining", "open addressing"]
+  },
+  {
+    "question": "What is linear probing?",
+    "answer": "Linear probing is a collision resolution technique where the next available slot is searched sequentially in a hash table.",
+    "keywords": ["linear probing", "sequential search", "collision resolution"]
+  },
+  {
+    "question": "What is chaining in hashing?",
+    "answer": "Chaining is a collision resolution method where each index in the hash table stores a linked list of elements.",
+    "keywords": ["chaining", "linked list", "collision resolution"]
+  },
+  {
+    "question": "What is a complete binary tree?",
+    "answer": "A complete binary tree is a tree where all levels are completely filled except possibly the last, which is filled from left to right.",
+    "keywords": ["complete tree", "levels filled", "left aligned"]
+  },
+  {
+    "question": "What is a full binary tree?",
+    "answer": "A full binary tree is a tree in which every node has either zero or two children.",
+    "keywords": ["full binary tree", "two children", "leaf nodes"]
+  },
+  {
+    "question": "What is tree traversal?",
+    "answer": "Tree traversal refers to visiting all nodes of a tree in a specific order such as inorder, preorder, or postorder.",
+    "keywords": ["tree traversal", "inorder preorder postorder", "node visiting"]
+  },
+  {
+    "question": "What is inorder traversal?",
+    "answer": "Inorder traversal visits the left subtree, root, and then the right subtree of a binary tree.",
+    "keywords": ["inorder traversal", "left root right", "binary tree"]
+  },
+  {
+    "question": "What is preorder traversal?",
+    "answer": "Preorder traversal visits the root node first, then the left subtree, followed by the right subtree.",
+    "keywords": ["preorder traversal", "root first", "tree traversal"]
+  },
+  {
+    "question": "What is postorder traversal?",
+    "answer": "Postorder traversal visits the left subtree, then the right subtree, and finally the root node.",
+    "keywords": ["postorder traversal", "left right root", "tree traversal"]
+  },
+  {
+    "question": "What is height of a tree?",
+    "answer": "The height of a tree is the number of edges in the longest path from the root to a leaf node.",
+    "keywords": ["tree height", "longest path", "root to leaf"]
+  },
+  {
+    "question": "What is balanced tree?",
+    "answer": "A balanced tree is a tree where the height difference between left and right subtrees is minimal, ensuring efficient operations.",
+    "keywords": ["balanced tree", "height difference", "efficient operations"]
+  },
+  {
+    "question": "What is graph traversal?",
+    "answer": "Graph traversal is the process of visiting all nodes in a graph using algorithms like BFS or DFS.",
+    "keywords": ["graph traversal", "BFS DFS", "visit nodes"]
+  },
+  {
+    "question": "What is directed graph?",
+    "answer": "A directed graph is a graph where edges have a direction, indicating one-way relationships between nodes.",
+    "keywords": ["directed graph", "edge direction", "one way"]
+  },
+  {
+    "question": "What is undirected graph?",
+    "answer": "An undirected graph is a graph where edges do not have direction, representing mutual relationships.",
+    "keywords": ["undirected graph", "no direction", "bidirectional"]
+  },
+  {
+    "question": "What is cycle in graph?",
+    "answer": "A cycle in a graph is a path that starts and ends at the same vertex without repeating edges.",
+    "keywords": ["graph cycle", "closed path", "same vertex"]
+  },
+  {
+    "question": "What is a weighted graph?",
+    "answer": "A weighted graph is a graph in which each edge has an associated numerical value or weight representing cost or distance.",
+    "keywords": ["weighted graph", "edge weight", "cost or distance"]
+  },
+  {
+    "question": "What is an unweighted graph?",
+    "answer": "An unweighted graph is a graph where all edges are considered equal and do not have any associated weights.",
+    "keywords": ["unweighted graph", "no edge weight", "equal edges"]
+  },
+  {
+    "question": "What is degree of a node in a graph?",
+    "answer": "The degree of a node is the number of edges connected to that node in a graph.",
+    "keywords": ["node degree", "edge count", "graph connectivity"]
+  },
+  {
+    "question": "What is in-degree and out-degree?",
+    "answer": "In-degree is the number of incoming edges to a node and out-degree is the number of outgoing edges from that node in a directed graph.",
+    "keywords": ["in degree", "out degree", "directed graph edges"]
+  },
+  {
+    "question": "What is a connected graph?",
+    "answer": "A connected graph is a graph where there is a path between every pair of vertices.",
+    "keywords": ["connected graph", "path exists", "all vertices reachable"]
+  },
+  {
+    "question": "What is a disconnected graph?",
+    "answer": "A disconnected graph is a graph in which at least one pair of vertices has no path between them.",
+    "keywords": ["disconnected graph", "no path", "separate components"]
+  },
+  {
+    "question": "What is a strongly connected graph?",
+    "answer": "A strongly connected graph is a directed graph where every vertex is reachable from every other vertex.",
+    "keywords": ["strongly connected", "directed graph", "mutual reachability"]
+  },
+  {
+    "question": "What is a weakly connected graph?",
+    "answer": "A weakly connected graph is a directed graph that becomes connected when edge directions are ignored.",
+    "keywords": ["weakly connected", "ignore direction", "connectivity"]
+  },
+  {
+    "question": "What is a path in a graph?",
+    "answer": "A path is a sequence of vertices connected by edges in a graph.",
+    "keywords": ["graph path", "vertex sequence", "edge connection"]
+  },
+  {
+    "question": "What is a simple path?",
+    "answer": "A simple path is a path in a graph that does not repeat any vertices.",
+    "keywords": ["simple path", "no repetition", "distinct vertices"]
+  },
+  {
+    "question": "What is a shortest path problem?",
+    "answer": "The shortest path problem involves finding the path between two nodes with the minimum total edge weight.",
+    "keywords": ["shortest path", "minimum distance", "graph optimization"]
+  },
+  {
+    "question": "What is Floyd Warshall algorithm?",
+    "answer": "Floyd Warshall is an algorithm used to find shortest paths between all pairs of vertices in a weighted graph.",
+    "keywords": ["floyd warshall", "all pairs shortest path", "dynamic programming"]
+  },
+  {
+    "question": "What is a DAG?",
+    "answer": "A Directed Acyclic Graph is a graph with directed edges and no cycles.",
+    "keywords": ["DAG", "no cycles", "directed graph"]
+  },
+  {
+    "question": "What is edge relaxation?",
+    "answer": "Edge relaxation is the process of updating the shortest path estimate for a vertex in graph algorithms.",
+    "keywords": ["edge relaxation", "update distance", "shortest path"]
+  },
+  {
+    "question": "What is a Hamiltonian path?",
+    "answer": "A Hamiltonian path is a path in a graph that visits each vertex exactly once.",
+    "keywords": ["hamiltonian path", "visit all vertices", "exactly once"]
+  },
+  {
+    "question": "What is a Hamiltonian cycle?",
+    "answer": "A Hamiltonian cycle is a cycle that visits each vertex exactly once and returns to the starting vertex.",
+    "keywords": ["hamiltonian cycle", "cycle path", "visit once"]
+  },
+  {
+    "question": "What is an Euler path?",
+    "answer": "An Euler path is a path that visits every edge of a graph exactly once.",
+    "keywords": ["euler path", "visit all edges", "exactly once"]
+  },
+  {
+    "question": "What is an Euler circuit?",
+    "answer": "An Euler circuit is a cycle that visits every edge exactly once and starts and ends at the same vertex.",
+    "keywords": ["euler circuit", "cycle edges", "same start end"]
+  },
+  {
+    "question": "What is a cut vertex?",
+    "answer": "A cut vertex is a vertex whose removal increases the number of connected components in a graph.",
+    "keywords": ["cut vertex", "graph connectivity", "articulation point"]
+  },
+  {
+    "question": "What is a bridge in a graph?",
+    "answer": "A bridge is an edge whose removal increases the number of connected components in a graph.",
+    "keywords": ["bridge edge", "disconnect graph", "critical edge"]
+  },
+  {
+    "question": "What is amortized analysis?",
+    "answer": "Amortized analysis calculates the average time per operation over a sequence of operations, ensuring that occasional costly operations do not affect overall performance significantly.",
+    "keywords": ["amortized analysis", "average cost", "multiple operations"]
+  },
+  {
+    "question": "What is a disjoint set?",
+    "answer": "A disjoint set is a data structure that keeps track of elements partitioned into non-overlapping sets and supports union and find operations.",
+    "keywords": ["disjoint set", "union find", "non overlapping sets"]
+  },
+  {
+    "question": "What is path compression?",
+    "answer": "Path compression is an optimization technique used in disjoint sets that flattens the structure of the tree to speed up future operations.",
+    "keywords": ["path compression", "tree flattening", "optimization"]
+  },
+  {
+    "question": "What is union by rank?",
+    "answer": "Union by rank is an optimization in disjoint sets where the smaller tree is attached under the root of the larger tree to maintain balance.",
+    "keywords": ["union by rank", "tree height", "balanced structure"]
+  },
+  {
+    "question": "What is a circular queue?",
+    "answer": "A circular queue is a queue in which the last position is connected back to the first position forming a circle.",
+    "keywords": ["circular queue", "wrap around", "efficient space"]
+  },
+  {
+    "question": "What is a doubly linked list?",
+    "answer": "A doubly linked list is a linked list where each node contains pointers to both the next and previous nodes.",
+    "keywords": ["doubly linked list", "two pointers", "previous next"]
+  },
+  {
+    "question": "What is a singly linked list?",
+    "answer": "A singly linked list is a linked list where each node points only to the next node in the sequence.",
+    "keywords": ["singly linked list", "single pointer", "linear structure"]
+  },
+  {
+    "question": "What is an expression tree?",
+    "answer": "An expression tree is a binary tree used to represent expressions where leaves are operands and internal nodes are operators.",
+    "keywords": ["expression tree", "operators operands", "binary tree"]
+  },
+  {
+    "question": "What is postfix expression?",
+    "answer": "A postfix expression is an expression where operators come after operands and can be evaluated using a stack.",
+    "keywords": ["postfix expression", "operator after operand", "stack evaluation"]
+  },
+  {
+    "question": "What is prefix expression?",
+    "answer": "A prefix expression is an expression where operators come before operands and is evaluated from right to left.",
+    "keywords": ["prefix expression", "operator before operand", "evaluation order"]
+  },
+  {
+    "question": "What is infix expression?",
+    "answer": "An infix expression is a standard expression where operators are placed between operands.",
+    "keywords": ["infix expression", "operator between operands", "standard notation"]
+  },
+  {
+    "question": "What is a spanning forest?",
+    "answer": "A spanning forest is a collection of spanning trees for each connected component of a disconnected graph.",
+    "keywords": ["spanning forest", "multiple trees", "disconnected graph"]
+  },
+  {
+    "question": "What is a bipartite graph?",
+    "answer": "A bipartite graph is a graph whose vertices can be divided into two disjoint sets such that no two vertices within the same set are adjacent.",
+    "keywords": ["bipartite graph", "two sets", "no internal edges"]
+  },
+  {
+    "question": "What is graph coloring?",
+    "answer": "Graph coloring is the assignment of colors to vertices such that no two adjacent vertices share the same color.",
+    "keywords": ["graph coloring", "adjacent nodes", "color assignment"]
+  },
+  {
+    "question": "What is a clique?",
+    "answer": "A clique is a subset of vertices in a graph such that every two distinct vertices are connected by an edge.",
+    "keywords": ["clique", "fully connected", "subgraph"]
+  },
+  {
+    "question": "What is a subgraph?",
+    "answer": "A subgraph is a portion of a graph consisting of a subset of vertices and edges.",
+    "keywords": ["subgraph", "subset vertices", "subset edges"]
+  },
+  {
+    "question": "What is a spanning subgraph?",
+    "answer": "A spanning subgraph is a subgraph that includes all the vertices of the original graph.",
+    "keywords": ["spanning subgraph", "all vertices", "subset edges"]
+  },
+  {
+    "question": "What is a cut edge?",
+    "answer": "A cut edge is an edge whose removal increases the number of connected components in a graph.",
+    "keywords": ["cut edge", "graph disconnect", "critical edge"]
+  },
+  {
+    "question": "What is an independent set?",
+    "answer": "An independent set is a set of vertices in a graph no two of which are adjacent.",
+    "keywords": ["independent set", "no adjacency", "vertex set"]
+  },
+  {
+    "question": "What is top down approach in DP?",
+    "answer": "Top down approach in dynamic programming uses recursion with memoization to solve problems by breaking them into smaller subproblems.",
+    "keywords": ["top down DP", "memoization", "recursive solution"]
+  },
+  {
+    "question": "What is bottom up approach in dynamic programming?",
+    "answer": "Bottom up approach in dynamic programming solves problems iteratively by building solutions from smaller subproblems to larger ones.",
+    "keywords": ["bottom up DP", "iterative solution", "build from subproblems"]
+  },
+  {
+    "question": "What is tabulation in DP?",
+    "answer": "Tabulation is a bottom up dynamic programming technique where results of subproblems are stored in a table to avoid recomputation.",
+    "keywords": ["tabulation", "DP table", "store results"]
+  },
+  {
+    "question": "What is longest common subsequence?",
+    "answer": "Longest common subsequence is the longest sequence that appears in the same relative order in two strings but not necessarily contiguous.",
+    "keywords": ["LCS", "common subsequence", "relative order"]
+  },
+  {
+    "question": "What is longest increasing subsequence?",
+    "answer": "Longest increasing subsequence is the longest subsequence in which elements are strictly increasing.",
+    "keywords": ["LIS", "increasing sequence", "subsequence"]
+  },
+  {
+    "question": "What is knapsack problem?",
+    "answer": "Knapsack problem is an optimization problem where items are selected to maximize value without exceeding weight capacity.",
+    "keywords": ["knapsack", "maximize value", "weight constraint"]
+  },
+  {
+    "question": "What is 0/1 knapsack?",
+    "answer": "0/1 knapsack is a variation where each item can either be taken or not taken, without splitting.",
+    "keywords": ["0/1 knapsack", "binary choice", "no fraction"]
+  },
+  {
+    "question": "What is fractional knapsack?",
+    "answer": "Fractional knapsack allows taking fractions of items to maximize total value.",
+    "keywords": ["fractional knapsack", "partial selection", "greedy"]
+  },
+  {
+    "question": "What is activity selection problem?",
+    "answer": "Activity selection is a greedy problem of selecting maximum number of non overlapping activities.",
+    "keywords": ["activity selection", "non overlapping", "greedy choice"]
+  },
+  {
+    "question": "What is job scheduling problem?",
+    "answer": "Job scheduling involves arranging jobs to maximize profit within deadlines.",
+    "keywords": ["job scheduling", "maximize profit", "deadlines"]
+  },
+  {
+    "question": "What is heap sort?",
+    "answer": "Heap sort is a comparison based sorting algorithm that uses a heap data structure to sort elements.",
+    "keywords": ["heap sort", "heap structure", "sorting"]
+  },
+  {
+    "question": "What is insertion sort?",
+    "answer": "Insertion sort builds the sorted array one element at a time by inserting elements into their correct position.",
+    "keywords": ["insertion sort", "incremental sorting", "comparison"]
+  },
+  {
+    "question": "What is selection sort?",
+    "answer": "Selection sort repeatedly selects the minimum element from the unsorted portion and places it at the beginning.",
+    "keywords": ["selection sort", "minimum element", "swap"]
+  },
+  {
+    "question": "What is bubble sort?",
+    "answer": "Bubble sort repeatedly swaps adjacent elements if they are in the wrong order.",
+    "keywords": ["bubble sort", "adjacent swap", "simple sorting"]
+  },
+  {
+    "question": "What is counting sort?",
+    "answer": "Counting sort is a non comparison sorting algorithm that counts occurrences of elements to sort them.",
+    "keywords": ["counting sort", "frequency count", "non comparison"]
+  },
+  {
+    "question": "What is radix sort?",
+    "answer": "Radix sort sorts numbers by processing individual digits from least significant to most significant.",
+    "keywords": ["radix sort", "digit based", "non comparison"]
+  },
+  {
+    "question": "What is bucket sort?",
+    "answer": "Bucket sort distributes elements into buckets and sorts each bucket individually.",
+    "keywords": ["bucket sort", "distribution", "bucket processing"]
+  },
+  {
+    "question": "What is searching?",
+    "answer": "Searching is the process of finding a specific element within a data structure.",
+    "keywords": ["searching", "find element", "data structure"]
+  },
+  {
+    "question": "What is linear search?",
+    "answer": "Linear search checks each element sequentially until the desired element is found.",
+    "keywords": ["linear search", "sequential check", "O(n)"]
+  },
+  {
+    "question": "What is interpolation search?",
+    "answer": "Interpolation search estimates the position of the target value based on its value in a sorted array.",
+    "keywords": ["interpolation search", "estimated position", "sorted array"]
+  },
+  {
+    "question": "What is exponential search?",
+    "answer": "Exponential search finds range for binary search by doubling the index and then applying binary search.",
+    "keywords": ["exponential search", "range finding", "binary search"]
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "question": "What is a computer network?",
+    "answer": "A computer network is a collection of interconnected devices that communicate and share resources.",
+    "keywords": ["computer network", "interconnected devices", "communication", "resource sharing", "data exchange", "network system", "connectivity"]
+  },
+  {
+    "question": "What are the types of computer networks?",
+    "answer": "Common types include LAN, WAN, MAN, and PAN based on geographical coverage.",
+    "keywords": ["network types", "LAN", "WAN", "MAN", "PAN", "geographical area", "network classification"]
+  },
+  {
+    "question": "What is OSI model?",
+    "answer": "OSI model is a 7 layer conceptual framework used to understand network communication.",
+    "keywords": ["OSI model", "7 layers", "network architecture", "layered model", "communication model", "protocol layers", "network design"]
+  },
+  {
+    "question": "What are the layers of OSI model?",
+    "answer": "The layers are Physical, Data Link, Network, Transport, Session, Presentation, and Application.",
+    "keywords": ["OSI layers", "physical layer", "data link layer", "network layer", "transport layer", "session layer", "application layer"]
+  },
+  {
+    "question": "What is TCP IP model?",
+    "answer": "TCP IP model is a 4 layer networking model used for internet communication.",
+    "keywords": ["TCP IP model", "internet model", "4 layers", "network communication", "protocol suite", "data transmission", "IP protocol"]
+  },
+  {
+    "question": "What is difference between OSI and TCP IP?",
+    "answer": "OSI is a conceptual model with 7 layers while TCP IP is practical with 4 layers used in real networks.",
+    "keywords": ["OSI vs TCP IP", "layer difference", "conceptual vs practical", "7 vs 4 layers", "network models", "protocol stack", "comparison"]
+  },
+  {
+    "question": "What is physical layer?",
+    "answer": "Physical layer handles transmission of raw bits over communication medium.",
+    "keywords": ["physical layer", "bit transmission", "signal transmission", "hardware layer", "communication medium", "network cables", "data transfer"]
+  },
+  {
+    "question": "What is data link layer?",
+    "answer": "Data link layer ensures reliable data transfer between nodes and handles error detection.",
+    "keywords": ["data link layer", "error detection", "frame transmission", "MAC address", "data integrity", "node communication", "link layer"]
+  },
+  {
+    "question": "What is network layer?",
+    "answer": "Network layer handles routing and forwarding of data packets between networks.",
+    "keywords": ["network layer", "routing", "packet forwarding", "IP addressing", "path selection", "data transfer", "network communication"]
+  },
+  {
+    "question": "What is transport layer?",
+    "answer": "Transport layer ensures reliable end to end communication using protocols like TCP and UDP.",
+    "keywords": ["transport layer", "end to end", "TCP", "UDP", "reliable transmission", "flow control", "data delivery"]
+  },
+  {
+    "question": "What is application layer?",
+    "answer": "Application layer provides network services to end user applications.",
+    "keywords": ["application layer", "user interface", "network services", "HTTP", "FTP", "email protocols", "application communication"]
+  },
+  {
+    "question": "What is bandwidth?",
+    "answer": "Bandwidth is the maximum data transfer rate of a network channel.",
+    "keywords": ["bandwidth", "data rate", "network speed", "capacity", "signal transmission", "communication channel", "throughput"]
+  },
+  {
+    "question": "What is guided media?",
+    "answer": "Guided media uses physical cables like twisted pair, coaxial, and fiber optics.",
+    "keywords": ["guided media", "cables", "twisted pair", "coaxial cable", "fiber optics", "wired communication", "transmission medium"]
+  },
+  {
+    "question": "What is unguided media?",
+    "answer": "Unguided media transmits data through air using signals like radio waves.",
+    "keywords": ["unguided media", "wireless", "radio waves", "microwave", "infrared", "signal transmission", "communication"]
+  },
+  {
+    "question": "What is Ethernet?",
+    "answer": "Ethernet is a LAN technology used for wired networking and data communication.",
+    "keywords": ["ethernet", "LAN technology", "wired network", "data communication", "MAC address", "frame structure", "network standard"]
+  },
+  {
+    "question": "What is MAC address?",
+    "answer": "MAC address is a unique hardware address assigned to a network interface.",
+    "keywords": ["MAC address", "hardware address", "unique identifier", "network interface", "data link layer", "device identity", "ethernet"]
+  },
+  {
+    "question": "What is framing?",
+    "answer": "Framing divides data into frames for transmission in the data link layer.",
+    "keywords": ["framing", "data frames", "data link layer", "packet division", "data transmission", "frame structure", "network layer"]
+  },
+  {
+    "question": "What is error detection?",
+    "answer": "Error detection identifies errors in transmitted data using techniques like parity and CRC.",
+    "keywords": ["error detection", "parity", "CRC", "data integrity", "error checking", "data transmission", "network reliability"]
+  },
+  {
+    "question": "What is CRC?",
+    "answer": "Cyclic Redundancy Check is an error detection technique used to verify data integrity.",
+    "keywords": ["CRC", "error detection", "cyclic redundancy", "data integrity", "checksum", "network reliability", "error checking"]
+  },
+  {
+    "question": "What is CSMA CD?",
+    "answer": "CSMA CD is a protocol used to detect and handle collisions in Ethernet networks.",
+    "keywords": ["CSMA CD", "collision detection", "ethernet", "network protocol", "data transmission", "collision handling", "LAN"]
+  },
+  {
+    "question": "What is VLAN?",
+    "answer": "VLAN is a logical grouping of devices in a network regardless of physical location.",
+    "keywords": ["VLAN", "virtual network", "logical grouping", "network segmentation", "LAN", "switching", "network design"]
+  },
+  {
+    "question": "What is DHCP?",
+    "answer": "DHCP automatically assigns IP addresses to devices in a network.",
+    "keywords": ["DHCP", "IP assignment", "automatic configuration", "network service", "IP address", "dynamic allocation", "network management"]
+  },
+  {
+    "question": "What is IPv4?",
+    "answer": "IPv4 is a 32 bit addressing system used for identifying devices on a network.",
+    "keywords": ["IPv4", "32 bit address", "IP addressing", "network layer", "internet protocol", "device identification", "network communication"]
+  },
+  {
+    "question": "What is IPv6?",
+    "answer": "IPv6 is a 128 bit addressing system designed to replace IPv4.",
+    "keywords": ["IPv6", "128 bit address", "IP addressing", "next generation", "internet protocol", "network communication", "address space"]
+  },
+  {
+    "question": "What is ARP?",
+    "answer": "ARP maps IP addresses to MAC addresses in a network.",
+    "keywords": ["ARP", "address resolution", "IP to MAC", "network layer", "mapping", "communication", "data link"]
+  },
+  {
+    "question": "What is ICMP?",
+    "answer": "ICMP is used for error reporting and network diagnostics.",
+    "keywords": ["ICMP", "error reporting", "ping", "network diagnostics", "control messages", "internet protocol", "network layer"]
+  },
+  {
+    "question": "What is routing?",
+    "answer": "Routing is the process of selecting paths for data transmission between networks.",
+    "keywords": ["routing", "path selection", "network layer", "data transfer", "packet forwarding", "routers", "network communication"]
+  },
+  {
+    "question": "What is static routing?",
+    "answer": "Static routing uses manually configured routes for packet forwarding.",
+    "keywords": ["static routing", "manual routes", "routing table", "network configuration", "fixed path", "router", "network management"]
+  },
+  {
+    "question": "What is dynamic routing?",
+    "answer": "Dynamic routing automatically updates routes using routing protocols.",
+    "keywords": ["dynamic routing", "automatic routing", "routing protocol", "network updates", "path optimization", "router", "network communication"]
+  },
+  {
+    "question": "What is TCP?",
+    "answer": "TCP is a reliable transport protocol that ensures error free data transmission.",
+    "keywords": ["TCP", "reliable protocol", "connection oriented", "error control", "flow control", "data transmission", "transport layer"]
+  },
+  {
+    "question": "What is UDP?",
+    "answer": "UDP is a connectionless protocol that provides fast but unreliable data transmission.",
+    "keywords": ["UDP", "connectionless", "fast transmission", "no reliability", "datagram", "transport layer", "network protocol"]
+  },
+  {
+    "question": "What is DNS?",
+    "answer": "DNS translates domain names into IP addresses.",
+    "keywords": ["DNS", "domain name", "IP mapping", "name resolution", "internet service", "network system", "address translation"]
+  },
+  {
+    "question": "What is HTTP?",
+    "answer": "HTTP is a protocol used for transferring web pages over the internet.",
+    "keywords": ["HTTP", "web protocol", "data transfer", "client server", "application layer", "internet communication", "web browsing"]
+  },
+  {
+    "question": "What is HTTPS?",
+    "answer": "HTTPS is a secure version of HTTP that uses encryption for secure communication.",
+    "keywords": ["HTTPS", "secure HTTP", "encryption", "SSL TLS", "secure communication", "web security", "data protection"]
+  },
+  {
+    "question": "What is SMTP?",
+    "answer": "SMTP is a protocol used for sending emails over the internet.",
+    "keywords": ["SMTP", "email sending", "mail transfer", "application layer", "email protocol", "internet communication", "mail server"]
+  },
+  {
+    "question": "What is POP3?",
+    "answer": "POP3 is a protocol used to retrieve emails from a mail server.",
+    "keywords": ["POP3", "email retrieval", "mail protocol", "application layer", "download email", "mail server", "communication"]
+  },
+  {
+    "question": "What is Telnet?",
+    "answer": "Telnet is a protocol used to remotely access and control a device over a network.",
+    "keywords": ["Telnet", "remote access", "network login", "command line", "application layer", "remote control", "communication"]
+  },
+  {
+    "question": "What is NAT?",
+    "answer": "NAT translates private IP addresses into public IP addresses for internet access.",
+    "keywords": ["NAT", "network address translation", "private IP", "public IP", "IP mapping", "internet access", "network security"]
+  },
+  {
+    "question": "What is ACL?",
+    "answer": "ACL is used to define rules that control network traffic and access permissions.",
+    "keywords": ["ACL", "access control list", "traffic filtering", "security rules", "network control", "permissions", "firewall"]
+  },
+  {
+    "question": "What is port number?",
+    "answer": "Port number identifies a specific process or service running on a device.",
+    "keywords": ["port number", "service identification", "TCP UDP", "application communication", "network port", "data transfer", "process mapping"]
+  },
+  {
+    "question": "What is multiplexing?",
+    "answer": "Multiplexing allows multiple signals to be transmitted over a single communication channel.",
+    "keywords": ["multiplexing", "multiple signals", "single channel", "data transmission", "bandwidth sharing", "communication", "network efficiency"]
+  },
+  {
+    "question": "What is demultiplexing?",
+    "answer": "Demultiplexing separates multiple signals received over a channel into individual streams.",
+    "keywords": ["demultiplexing", "signal separation", "data streams", "receiver process", "network communication", "transport layer", "data delivery"]
+  },
+  {
+    "question": "What is flow control?",
+    "answer": "Flow control ensures that data transmission rate matches the receiver’s capacity.",
+    "keywords": ["flow control", "data rate", "receiver capacity", "network communication", "TCP control", "data transfer", "performance"]
+  },
+  {
+    "question": "What is congestion control?",
+    "answer": "Congestion control prevents network overload by controlling data transmission rate.",
+    "keywords": ["congestion control", "network traffic", "data flow", "TCP control", "packet loss", "network efficiency", "performance"]
+  },
+  {
+    "question": "What is sliding window protocol?",
+    "answer": "Sliding window protocol controls data flow by allowing multiple frames to be sent before acknowledgment.",
+    "keywords": ["sliding window", "flow control", "frame transmission", "acknowledgment", "data link layer", "network protocol", "efficiency"]
+  },
+  {
+    "question": "What is stop and wait protocol?",
+    "answer": "Stop and wait protocol sends one frame and waits for acknowledgment before sending next.",
+    "keywords": ["stop and wait", "single frame", "acknowledgment", "flow control", "data link protocol", "network communication", "simple protocol"]
+  },
+  {
+    "question": "What is Go Back N protocol?",
+    "answer": "Go Back N retransmits all frames after a lost or damaged frame.",
+    "keywords": ["go back N", "retransmission", "error control", "sliding window", "data link layer", "frame loss", "network protocol"]
+  },
+  {
+    "question": "What is Selective Repeat protocol?",
+    "answer": "Selective Repeat retransmits only the erroneous frames instead of all frames.",
+    "keywords": ["selective repeat", "error correction", "retransmission", "frame recovery", "sliding window", "network efficiency", "data link"]
+  },
+  {
+    "question": "What is virtual circuit?",
+    "answer": "Virtual circuit is a logical connection established before data transmission.",
+    "keywords": ["virtual circuit", "logical path", "connection oriented", "network layer", "data transfer", "communication", "routing"]
+  },
+  {
+    "question": "What is datagram network?",
+    "answer": "Datagram network sends packets independently without predefined path.",
+    "keywords": ["datagram network", "connectionless", "independent packets", "routing", "network layer", "IP network", "data transmission"]
+  },
+  {
+    "question": "What is subnetting?",
+    "answer": "Subnetting divides a network into smaller sub networks for efficient management.",
+    "keywords": ["subnetting", "network division", "IP addressing", "subnet mask", "network management", "addressing", "efficiency"]
+  },
+  {
+    "question": "What is supernetting?",
+    "answer": "Supernetting combines multiple networks into a larger network.",
+    "keywords": ["supernetting", "network aggregation", "IP addressing", "CIDR", "network expansion", "address management", "routing"]
+  },
+  {
+    "question": "What is routing table?",
+    "answer": "Routing table stores paths to different network destinations.",
+    "keywords": ["routing table", "network paths", "destination", "router memory", "packet forwarding", "routing info", "network layer"]
+  },
+  {
+    "question": "What is router?",
+    "answer": "Router is a device that forwards data packets between different networks.",
+    "keywords": ["router", "packet forwarding", "network device", "routing", "IP address", "network layer", "communication"]
+  },
+  {
+    "question": "What is switch?",
+    "answer": "Switch connects devices in a LAN and forwards data based on MAC address.",
+    "keywords": ["switch", "LAN device", "MAC address", "frame forwarding", "network device", "data link layer", "communication"]
+  },
+  {
+    "question": "What is hub?",
+    "answer": "Hub is a basic network device that broadcasts data to all connected devices.",
+    "keywords": ["hub", "broadcast device", "network device", "physical layer", "data transmission", "LAN", "simple device"]
+  },
+  {
+    "question": "What is gateway?",
+    "answer": "Gateway connects different networks and translates between protocols.",
+    "keywords": ["gateway", "network connection", "protocol conversion", "different networks", "communication", "network device", "translation"]
+  },
+  {
+    "question": "What is firewall?",
+    "answer": "Firewall is a security system that monitors and controls incoming and outgoing network traffic.",
+    "keywords": ["firewall", "network security", "traffic filtering", "access control", "data protection", "security system", "network monitoring"]
+  },
+  {
+    "question": "What is packet switching?",
+    "answer": "Packet switching divides data into packets and transmits them independently.",
+    "keywords": ["packet switching", "data packets", "network transmission", "routing", "communication", "data transfer", "internet"]
+  },
+  {
+    "question": "What is circuit switching?",
+    "answer": "Circuit switching establishes a dedicated path for communication.",
+    "keywords": ["circuit switching", "dedicated path", "connection oriented", "communication channel", "network transmission", "telephone system", "data transfer"]
+  },
+  {
+    "question": "What is latency?",
+    "answer": "Latency is the delay in data transmission over a network.",
+    "keywords": ["latency", "delay", "network performance", "data transmission", "response time", "communication delay", "network speed"]
+  },
+  {
+    "question": "What is throughput?",
+    "answer": "Throughput is the actual data transfer rate achieved in a network.",
+    "keywords": ["throughput", "data rate", "network performance", "bandwidth usage", "communication speed", "efficiency", "data transfer"]
+  },
+  {
+    "question": "What is jitter?",
+    "answer": "Jitter is variation in packet delay in a network.",
+    "keywords": ["jitter", "delay variation", "packet timing", "network performance", "data transmission", "latency variation", "communication"]
+  },
+  {
+    "question": "What is QoS?",
+    "answer": "Quality of Service ensures priority handling of important network traffic.",
+    "keywords": ["QoS", "priority traffic", "network performance", "bandwidth control", "latency management", "service quality", "communication"]
+  },
+  {
+    "question": "What is DNS caching?",
+    "answer": "DNS caching stores previously resolved domain names for faster access.",
+    "keywords": ["DNS caching", "fast lookup", "domain resolution", "network efficiency", "internet speed", "data storage", "DNS system"]
+  },
+  {
+    "question": "What is CDN?",
+    "answer": "Content Delivery Network distributes content across multiple servers to improve performance.",
+    "keywords": ["CDN", "content delivery", "distributed servers", "fast access", "network performance", "web optimization", "internet service"]
+  },
+  {
+    "question": "What is STP in networking?",
+    "answer": "Spanning Tree Protocol prevents loops in a network by creating a loop-free logical topology.",
+    "keywords": ["STP", "spanning tree protocol", "loop prevention", "network topology", "switching", "broadcast storm", "layer 2"]
+  },
+  {
+    "question": "What is FHRP?",
+    "answer": "First Hop Redundancy Protocol provides backup gateways to ensure network availability.",
+    "keywords": ["FHRP", "gateway redundancy", "backup router", "network reliability", "high availability", "failover", "network protocol"]
+  },
+  {
+    "question": "What is HSRP?",
+    "answer": "HSRP is a protocol that provides redundancy by using a virtual router as default gateway.",
+    "keywords": ["HSRP", "virtual router", "redundancy", "default gateway", "failover", "network reliability", "FHRP"]
+  },
+  {
+    "question": "What is RIP protocol?",
+    "answer": "RIP is a distance vector routing protocol that uses hop count to determine best path.",
+    "keywords": ["RIP", "distance vector", "hop count", "routing protocol", "dynamic routing", "network layer", "path selection"]
+  },
+  {
+    "question": "What is OSPF protocol?",
+    "answer": "OSPF is a link state routing protocol that uses shortest path first algorithm.",
+    "keywords": ["OSPF", "link state", "shortest path", "routing protocol", "dynamic routing", "network layer", "SPF algorithm"]
+  },
+  {
+    "question": "What is BGP?",
+    "answer": "BGP is a path vector protocol used for routing between autonomous systems on the internet.",
+    "keywords": ["BGP", "path vector", "autonomous system", "internet routing", "routing protocol", "network layer", "global routing"]
+  },
+  {
+    "question": "What is autonomous system?",
+    "answer": "An autonomous system is a group of networks under a single administrative domain.",
+    "keywords": ["autonomous system", "network group", "administrative control", "routing domain", "BGP", "internet", "network management"]
+  },
+  {
+    "question": "What is tunneling?",
+    "answer": "Tunneling encapsulates one protocol inside another for secure transmission.",
+    "keywords": ["tunneling", "encapsulation", "secure communication", "VPN", "data transmission", "protocol", "network security"]
+  },
+  {
+    "question": "What is VPN?",
+    "answer": "VPN creates a secure private network over a public network using encryption.",
+    "keywords": ["VPN", "virtual private network", "secure communication", "encryption", "remote access", "network security", "internet"]
+  },
+  {
+    "question": "What is proxy server?",
+    "answer": "A proxy server acts as an intermediary between client and server for requests.",
+    "keywords": ["proxy server", "intermediary", "client server", "request forwarding", "security", "web access", "network service"]
+  },
+  {
+    "question": "What is load balancing?",
+    "answer": "Load balancing distributes network traffic across multiple servers to improve performance.",
+    "keywords": ["load balancing", "traffic distribution", "server load", "performance", "network efficiency", "availability", "scalability"]
+  },
+  {
+    "question": "What is packet loss?",
+    "answer": "Packet loss occurs when data packets fail to reach their destination.",
+    "keywords": ["packet loss", "data loss", "network issue", "communication failure", "transmission error", "performance", "network reliability"]
+  },
+  {
+    "question": "What is MTU?",
+    "answer": "Maximum Transmission Unit is the largest size of packet that can be transmitted.",
+    "keywords": ["MTU", "packet size", "data transmission", "network limit", "frame size", "communication", "network performance"]
+  },
+  {
+    "question": "What is fragmentation in networking?",
+    "answer": "Fragmentation divides large packets into smaller packets for transmission.",
+    "keywords": ["fragmentation", "packet division", "network layer", "data transmission", "MTU", "packet size", "communication"]
+  },
+  {
+    "question": "What is reassembly?",
+    "answer": "Reassembly combines fragmented packets back into original data.",
+    "keywords": ["reassembly", "packet combining", "data reconstruction", "network layer", "fragmentation", "data transmission", "communication"]
+  },
+  {
+    "question": "What is socket in networking?",
+    "answer": "A socket is an endpoint for communication between two devices.",
+    "keywords": ["socket", "endpoint", "network communication", "IP and port", "client server", "data exchange", "connection"]
+  },
+  {
+    "question": "What is three way handshake?",
+    "answer": "Three way handshake establishes a TCP connection using SYN, SYN-ACK, and ACK.",
+    "keywords": ["three way handshake", "TCP connection", "SYN", "ACK", "connection setup", "transport layer", "reliable communication"]
+  },
+  {
+    "question": "What is four way handshake?",
+    "answer": "Four way handshake is used to terminate a TCP connection.",
+    "keywords": ["four way handshake", "connection termination", "TCP close", "FIN", "ACK", "transport layer", "communication"]
+  },
+  {
+    "question": "What is SYN flood attack?",
+    "answer": "SYN flood attack overwhelms a server by sending many incomplete connection requests.",
+    "keywords": ["SYN flood", "dos attack", "network security", "tcp attack", "connection request", "server overload", "cyber attack"]
+  },
+  {
+    "question": "What is spoofing?",
+    "answer": "Spoofing is impersonating another device by falsifying identity.",
+    "keywords": ["spoofing", "fake identity", "IP spoofing", "network attack", "security threat", "data manipulation", "cyber attack"]
+  },
+  {
+    "question": "What is phishing?",
+    "answer": "Phishing is a cyber attack that tricks users into revealing sensitive information.",
+    "keywords": ["phishing", "social engineering", "fake emails", "data theft", "cyber attack", "security threat", "user deception"]
+  },
+  {
+    "question": "What is DDoS attack?",
+    "answer": "DDoS attack floods a network with traffic from multiple sources.",
+    "keywords": ["DDoS", "distributed attack", "network flooding", "traffic overload", "cyber attack", "security", "service disruption"]
+  },
+  {
+    "question": "What is SSL?",
+    "answer": "SSL is a protocol used to secure communication through encryption.",
+    "keywords": ["SSL", "secure socket layer", "encryption", "secure communication", "data protection", "web security", "HTTPS"]
+  },
+  {
+    "question": "What is TLS?",
+    "answer": "TLS is an updated version of SSL used for secure data transmission.",
+    "keywords": ["TLS", "secure protocol", "encryption", "data security", "network security", "HTTPS", "communication"]
+  },
+  {
+    "question": "What is handshake protocol in TLS?",
+    "answer": "TLS handshake establishes secure connection by exchanging encryption keys.",
+    "keywords": ["TLS handshake", "key exchange", "secure connection", "encryption", "authentication", "network security", "protocol"]
+  },
+  {
+    "question": "What is end to end communication?",
+    "answer": "End to end communication ensures data is transmitted from source to destination reliably.",
+    "keywords": ["end to end", "data delivery", "source destination", "transport layer", "reliable communication", "network flow", "data transfer"]
+  },
+  {
+    "question": "What is web page request flow?",
+    "answer": "Web page request involves DNS lookup, TCP connection, HTTP request, and response.",
+    "keywords": ["web request flow", "DNS lookup", "TCP connection", "HTTP request", "response", "application layer", "network process"]
+  },
+  {
+    "question": "What is peer to peer model?",
+    "answer": "Peer to peer model allows devices to communicate directly without a central server.",
+    "keywords": ["peer to peer", "P2P", "direct communication", "no server", "network model", "data sharing", "distributed system"]
+  },
+  {
+    "question": "What is client server model?",
+    "answer": "Client server model involves a server providing services to multiple clients.",
+    "keywords": ["client server", "central server", "request response", "network model", "service provider", "communication", "architecture"]
+  },
+  {
+    "question": "What is network topology?",
+    "answer": "Network topology defines the physical or logical arrangement of network devices.",
+    "keywords": ["network topology", "layout", "physical topology", "logical topology", "network design", "communication", "structure"]
+  },
+  {
+    "question": "What are types of network topology?",
+    "answer": "Common types include bus, star, ring, mesh, and hybrid topology.",
+    "keywords": ["topology types", "bus", "star", "ring", "mesh", "hybrid", "network structure"]
+  },
+  {
+    "question": "What is mesh topology?",
+    "answer": "Mesh topology connects every device to every other device for high reliability.",
+    "keywords": ["mesh topology", "full connection", "high reliability", "network design", "redundancy", "communication", "topology"]
+  },
+  {
+    "question": "What is star topology?",
+    "answer": "Star topology connects all devices to a central hub or switch.",
+    "keywords": ["star topology", "central node", "hub switch", "network layout", "communication", "topology", "LAN"]
+  }
+]

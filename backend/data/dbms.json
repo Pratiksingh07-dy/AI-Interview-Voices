@@ -1,0 +1,447 @@
+[
+  {
+    "question": "What is DBMS?",
+    "answer": "A Database Management System is software that stores, manages, and retrieves data efficiently from databases.",
+    "keywords": ["DBMS", "data management", "database system", "data storage", "data retrieval", "data organization", "database software"]
+  },
+  {
+    "question": "What is a database?",
+    "answer": "A database is an organized collection of structured data stored electronically for easy access and management.",
+    "keywords": ["database", "data collection", "structured data", "data storage", "organized data", "data access", "electronic storage"]
+  },
+  {
+    "question": "What is data?",
+    "answer": "Data refers to raw facts and figures that can be processed to generate meaningful information.",
+    "keywords": ["data", "raw facts", "unprocessed information", "input values", "data representation", "information source", "basic units"]
+  },
+  {
+    "question": "What is information?",
+    "answer": "Information is processed data that is meaningful and useful for decision making.",
+    "keywords": ["information", "processed data", "meaningful output", "decision making", "data interpretation", "useful data", "analysis"]
+  },
+  {
+    "question": "What is a table?",
+    "answer": "A table is a collection of rows and columns used to store data in a structured format in a database.",
+    "keywords": ["table", "rows and columns", "structured data", "data storage", "relation", "database table", "record storage"]
+  },
+  {
+    "question": "What is a row?",
+    "answer": "A row represents a single record or tuple in a table.",
+    "keywords": ["row", "record", "tuple", "single entry", "data record", "table row", "entity instance"]
+  },
+  {
+    "question": "What is a column?",
+    "answer": "A column represents a specific attribute or field of a table.",
+    "keywords": ["column", "attribute", "field", "data field", "table column", "data type", "property"]
+  },
+  {
+    "question": "What is a primary key?",
+    "answer": "A primary key is a unique identifier for each record in a table.",
+    "keywords": ["primary key", "unique identifier", "no duplicates", "table key", "record identification", "entity key", "uniqueness"]
+  },
+  {
+    "question": "What is a foreign key?",
+    "answer": "A foreign key is a field that establishes a relationship between two tables.",
+    "keywords": ["foreign key", "table relationship", "reference key", "data linking", "referential integrity", "parent child", "constraint"]
+  },
+  {
+    "question": "What is a candidate key?",
+    "answer": "A candidate key is a set of attributes that can uniquely identify a record in a table.",
+    "keywords": ["candidate key", "unique attributes", "possible primary key", "record identification", "uniqueness", "minimal key", "key selection"]
+  },
+  {
+    "question": "What is a super key?",
+    "answer": "A super key is a set of attributes that can uniquely identify a record but may contain extra attributes.",
+    "keywords": ["super key", "unique identification", "extra attributes", "superset key", "data uniqueness", "candidate superset", "record identification"]
+  },
+  {
+    "question": "What is normalization?",
+    "answer": "Normalization is the process of organizing data to reduce redundancy and improve data integrity.",
+    "keywords": ["normalization", "data organization", "remove redundancy", "data integrity", "database design", "efficient storage", "structured data"]
+  },
+  {
+    "question": "What is denormalization?",
+    "answer": "Denormalization is the process of combining tables to improve read performance at the cost of redundancy.",
+    "keywords": ["denormalization", "combine tables", "performance optimization", "redundancy increase", "query speed", "database design", "data duplication"]
+  },
+  {
+    "question": "What is SQL?",
+    "answer": "SQL is a structured query language used to interact with relational databases.",
+    "keywords": ["SQL", "structured query language", "database query", "data manipulation", "data retrieval", "database interaction", "query language"]
+  },
+  {
+    "question": "What is DDL?",
+    "answer": "Data Definition Language is used to define and modify database structure.",
+    "keywords": ["DDL", "data definition", "schema creation", "table creation", "database structure", "alter table", "drop table"]
+  },
+  {
+    "question": "What is DML?",
+    "answer": "Data Manipulation Language is used to insert, update, and delete data in a database.",
+    "keywords": ["DML", "data manipulation", "insert update delete", "data operations", "database modification", "record handling", "query execution"]
+  },
+  {
+    "question": "What is DCL?",
+    "answer": "Data Control Language is used to control access and permissions in a database.",
+    "keywords": ["DCL", "access control", "permissions", "grant revoke", "database security", "user privileges", "authorization"]
+  },
+  {
+    "question": "What is TCL?",
+    "answer": "Transaction Control Language manages transactions in a database.",
+    "keywords": ["TCL", "transaction control", "commit rollback", "database transaction", "data consistency", "savepoint", "execution control"]
+  },
+  {
+    "question": "What is a transaction?",
+    "answer": "A transaction is a sequence of operations performed as a single logical unit of work.",
+    "keywords": ["transaction", "logical unit", "database operations", "data consistency", "execution sequence", "atomic operations", "database action"]
+  },
+  {
+    "question": "What are ACID properties?",
+    "answer": "ACID properties ensure reliable transactions through atomicity, consistency, isolation, and durability.",
+    "keywords": ["ACID", "atomicity", "consistency", "isolation", "durability", "transaction reliability", "database integrity"]
+  },
+  {
+    "question": "What is atomicity?",
+    "answer": "Atomicity ensures that all operations in a transaction are completed or none are applied.",
+    "keywords": ["atomicity", "all or nothing", "transaction integrity", "failure rollback", "complete execution", "database consistency", "transaction control"]
+  },
+  {
+    "question": "What is consistency?",
+    "answer": "Consistency ensures that a database remains in a valid state before and after a transaction.",
+    "keywords": ["consistency", "valid state", "data integrity", "database rules", "constraint enforcement", "transaction correctness", "stable data"]
+  },
+  {
+    "question": "What is isolation?",
+    "answer": "Isolation ensures that concurrent transactions do not interfere with each other.",
+    "keywords": ["isolation", "concurrent transactions", "no interference", "transaction separation", "data integrity", "parallel execution", "consistency"]
+  },
+  {
+    "question": "What is durability?",
+    "answer": "Durability ensures that once a transaction is committed, it remains permanent even in case of system failure.",
+    "keywords": ["durability", "permanent data", "committed transaction", "failure recovery", "data persistence", "database reliability", "storage guarantee"]
+  },
+  {
+    "question": "What is schema?",
+    "answer": "Schema defines the structure of a database including tables, fields, and relationships.",
+    "keywords": ["schema", "database structure", "table design", "field definition", "data model", "database blueprint", "logical structure"]
+  },
+  {
+    "question": "What is an instance in DBMS?",
+    "answer": "An instance is the actual data stored in the database at a particular moment in time.",
+    "keywords": ["instance", "current data", "database snapshot", "runtime data", "stored values", "database state", "data at time"]
+  },
+  {
+    "question": "What is a DBMS schema architecture?",
+    "answer": "DBMS schema architecture defines different levels of abstraction including internal, conceptual, and external levels.",
+    "keywords": ["schema architecture", "three level architecture", "internal level", "conceptual level", "external level", "data abstraction", "database design"]
+  },
+  {
+    "question": "What is data abstraction?",
+    "answer": "Data abstraction hides complex implementation details and shows only essential information to users.",
+    "keywords": ["data abstraction", "hide complexity", "user view", "database layers", "simplification", "data hiding", "system design"]
+  },
+  {
+    "question": "What is data independence?",
+    "answer": "Data independence allows changes in schema without affecting application programs.",
+    "keywords": ["data independence", "schema change", "no program impact", "logical independence", "physical independence", "flexibility", "database design"]
+  },
+  {
+    "question": "What is physical data independence?",
+    "answer": "Physical data independence allows changes in physical storage without affecting logical schema.",
+    "keywords": ["physical independence", "storage change", "no schema change", "disk structure", "data organization", "database flexibility", "low level changes"]
+  },
+  {
+    "question": "What is logical data independence?",
+    "answer": "Logical data independence allows changes in logical schema without affecting application programs.",
+    "keywords": ["logical independence", "schema modification", "application unaffected", "database flexibility", "logical design", "data abstraction", "schema change"]
+  },
+  {
+    "question": "What is ER model?",
+    "answer": "Entity Relationship model is a conceptual model used to represent data and relationships in a database.",
+    "keywords": ["ER model", "entity relationship", "conceptual design", "data modeling", "entities and relationships", "diagram representation", "database design"]
+  },
+  {
+    "question": "What is an entity?",
+    "answer": "An entity is a real world object or concept that can be identified in a database.",
+    "keywords": ["entity", "real world object", "identifiable object", "data object", "database entity", "object representation", "concept"]
+  },
+  {
+    "question": "What is an attribute?",
+    "answer": "An attribute is a property or characteristic of an entity.",
+    "keywords": ["attribute", "entity property", "data field", "characteristic", "column", "data description", "entity feature"]
+  },
+  {
+    "question": "What is a relationship?",
+    "answer": "A relationship defines how two or more entities are associated with each other.",
+    "keywords": ["relationship", "entity association", "data connection", "link entities", "database relation", "entity interaction", "mapping"]
+  },
+  {
+    "question": "What is cardinality?",
+    "answer": "Cardinality defines the number of instances of one entity related to another entity.",
+    "keywords": ["cardinality", "one to many", "many to many", "relationship count", "entity mapping", "association", "data relation"]
+  },
+  {
+    "question": "What is degree of relationship?",
+    "answer": "Degree of relationship refers to the number of entities involved in a relationship.",
+    "keywords": ["degree of relationship", "entity count", "binary relation", "ternary relation", "relationship type", "entity participation", "mapping"]
+  },
+  {
+    "question": "What is a weak entity?",
+    "answer": "A weak entity is an entity that depends on another entity for its existence.",
+    "keywords": ["weak entity", "dependent entity", "no primary key", "owner entity", "existence dependency", "ER model", "relationship"]
+  },
+  {
+    "question": "What is a strong entity?",
+    "answer": "A strong entity is an entity that has a primary key and exists independently.",
+    "keywords": ["strong entity", "independent entity", "primary key", "unique identity", "database object", "entity existence", "ER model"]
+  },
+  {
+    "question": "What is normalization forms?",
+    "answer": "Normalization forms are rules applied to database tables to reduce redundancy and improve data integrity.",
+    "keywords": ["normal forms", "1NF", "2NF", "3NF", "data normalization", "reduce redundancy", "database design"]
+  },
+  {
+    "question": "What is 1NF?",
+    "answer": "First normal form ensures that all attributes contain atomic values and no repeating groups.",
+    "keywords": ["1NF", "atomic values", "no repeating groups", "data organization", "table structure", "normalization", "database design"]
+  },
+  {
+    "question": "What is 2NF?",
+    "answer": "Second normal form removes partial dependency of non key attributes on a composite primary key.",
+    "keywords": ["2NF", "partial dependency", "composite key", "functional dependency", "data integrity", "normalization", "table design"]
+  },
+  {
+    "question": "What is 3NF?",
+    "answer": "Third normal form removes transitive dependency among non key attributes.",
+    "keywords": ["3NF", "transitive dependency", "data integrity", "functional dependency", "database normalization", "table design", "dependency removal"]
+  },
+  {
+    "question": "What is BCNF?",
+    "answer": "Boyce Codd Normal Form is a higher version of 3NF that eliminates anomalies due to functional dependency.",
+    "keywords": ["BCNF", "advanced normalization", "functional dependency", "anomaly removal", "data integrity", "database design", "normal form"]
+  },
+  {
+    "question": "What is functional dependency?",
+    "answer": "Functional dependency defines the relationship between attributes where one determines another.",
+    "keywords": ["functional dependency", "attribute relation", "determinant", "dependent attribute", "data constraint", "database design", "normalization"]
+  },
+  {
+    "question": "What is multivalued dependency?",
+    "answer": "Multivalued dependency occurs when one attribute determines multiple independent values of another attribute.",
+    "keywords": ["multivalued dependency", "multiple values", "attribute relation", "independent data", "database dependency", "normalization", "data modeling"]
+  },
+  {
+    "question": "What is join in SQL?",
+    "answer": "Join is used to combine rows from two or more tables based on a related column.",
+    "keywords": ["join", "table combination", "data merging", "foreign key relation", "query operation", "SQL join", "data retrieval"]
+  },
+  {
+    "question": "What is inner join?",
+    "answer": "Inner join returns only matching rows from both tables based on a condition.",
+    "keywords": ["inner join", "matching rows", "common values", "SQL join", "data intersection", "query result", "table relation"]
+  },
+  {
+    "question": "What is left join?",
+    "answer": "Left join returns all records from the left table and matching records from the right table.",
+    "keywords": ["left join", "all left records", "partial match", "SQL join", "null values", "data retrieval", "table join"]
+  },
+  {
+    "question": "What is right join?",
+    "answer": "Right join returns all records from the right table and matching records from the left table.",
+    "keywords": ["right join", "all right records", "partial match", "SQL join", "null values", "data retrieval", "table join"]
+  },
+  {
+    "question": "What is full join?",
+    "answer": "Full join returns all records from both tables including matched and unmatched rows.",
+    "keywords": ["full join", "all records", "left and right", "SQL join", "null handling", "complete data", "table merge"]
+  },
+  {
+    "question": "What is index?",
+    "answer": "An index is a data structure that improves the speed of data retrieval operations on a table.",
+    "keywords": ["index", "fast retrieval", "data access", "search optimization", "database performance", "indexing", "query speed"]
+  },
+  {
+    "question": "What is clustered index?",
+    "answer": "Clustered index defines the physical order of data in a table.",
+    "keywords": ["clustered index", "physical order", "data storage", "table organization", "index structure", "sorting", "database performance"]
+  },
+  {
+    "question": "What is non clustered index?",
+    "answer": "Non clustered index stores a separate structure with pointers to actual data.",
+    "keywords": ["non clustered index", "separate structure", "data pointer", "index table", "search optimization", "query speed", "database performance"]
+  },
+  {
+    "question": "What is a view in DBMS?",
+    "answer": "A view is a virtual table based on the result of a SQL query that does not store data physically.",
+    "keywords": ["view", "virtual table", "SQL query result", "no physical storage", "data abstraction", "query based table", "logical table"]
+  },
+  {
+    "question": "What is materialized view?",
+    "answer": "A materialized view stores the result of a query physically for faster access.",
+    "keywords": ["materialized view", "stored result", "physical storage", "query optimization", "performance improvement", "data caching", "precomputed data"]
+  },
+  {
+    "question": "What is a cursor?",
+    "answer": "A cursor is a database object used to retrieve and manipulate rows one at a time.",
+    "keywords": ["cursor", "row by row", "data retrieval", "record iteration", "SQL processing", "loop through rows", "query result"]
+  },
+  {
+    "question": "What is stored procedure?",
+    "answer": "A stored procedure is a set of SQL statements stored in the database that can be executed as a program.",
+    "keywords": ["stored procedure", "SQL program", "database function", "precompiled code", "reusable logic", "execution block", "procedure call"]
+  },
+  {
+    "question": "What is trigger?",
+    "answer": "A trigger is a set of SQL statements that automatically executes in response to certain events on a table.",
+    "keywords": ["trigger", "automatic execution", "event driven", "insert update delete", "database event", "table action", "SQL trigger"]
+  },
+  {
+    "question": "What is constraint?",
+    "answer": "Constraints are rules applied to table columns to enforce data integrity.",
+    "keywords": ["constraint", "data integrity", "rules", "column restriction", "database validation", "data correctness", "table rules"]
+  },
+  {
+    "question": "What is NOT NULL constraint?",
+    "answer": "NOT NULL constraint ensures that a column cannot have null values.",
+    "keywords": ["NOT NULL", "no null values", "mandatory field", "data validation", "column restriction", "data integrity", "constraint rule"]
+  },
+  {
+    "question": "What is UNIQUE constraint?",
+    "answer": "UNIQUE constraint ensures that all values in a column are distinct.",
+    "keywords": ["UNIQUE", "distinct values", "no duplicates", "data uniqueness", "column constraint", "data validation", "table rule"]
+  },
+  {
+    "question": "What is CHECK constraint?",
+    "answer": "CHECK constraint ensures that values in a column satisfy a specific condition.",
+    "keywords": ["CHECK constraint", "condition validation", "data rule", "column restriction", "logical condition", "data integrity", "validation"]
+  },
+  {
+    "question": "What is DEFAULT constraint?",
+    "answer": "DEFAULT constraint assigns a default value to a column when no value is specified.",
+    "keywords": ["DEFAULT", "default value", "column value", "data assignment", "automatic value", "table rule", "database constraint"]
+  },
+  {
+    "question": "What is referential integrity?",
+    "answer": "Referential integrity ensures that foreign key values match primary key values in related tables.",
+    "keywords": ["referential integrity", "foreign key", "primary key relation", "data consistency", "table relation", "constraint enforcement", "data linking"]
+  },
+  {
+    "question": "What is join condition?",
+    "answer": "Join condition defines how two tables are related and how rows should be combined.",
+    "keywords": ["join condition", "table relation", "matching columns", "SQL join", "data merging", "query condition", "table link"]
+  },
+  {
+    "question": "What is subquery?",
+    "answer": "A subquery is a query nested inside another SQL query.",
+    "keywords": ["subquery", "nested query", "inner query", "SQL operation", "query inside query", "data retrieval", "complex query"]
+  },
+  {
+    "question": "What is correlated subquery?",
+    "answer": "A correlated subquery depends on the outer query and executes once for each row.",
+    "keywords": ["correlated subquery", "dependent query", "row by row execution", "outer query reference", "nested query", "SQL processing", "dynamic query"]
+  },
+  {
+    "question": "What is aggregation function?",
+    "answer": "Aggregation functions perform calculations on multiple rows and return a single value.",
+    "keywords": ["aggregation", "SUM AVG COUNT", "data calculation", "group data", "single output", "SQL function", "data analysis"]
+  },
+  {
+    "question": "What is GROUP BY?",
+    "answer": "GROUP BY groups rows with the same values in specified columns.",
+    "keywords": ["GROUP BY", "data grouping", "aggregation", "same values", "SQL clause", "data summarization", "query processing"]
+  },
+  {
+    "question": "What is HAVING clause?",
+    "answer": "HAVING clause filters grouped data after aggregation.",
+    "keywords": ["HAVING", "group filtering", "aggregation condition", "SQL clause", "data filtering", "group result", "query logic"]
+  },
+  {
+    "question": "What is ORDER BY?",
+    "answer": "ORDER BY sorts query results in ascending or descending order.",
+    "keywords": ["ORDER BY", "sorting", "ascending descending", "result ordering", "SQL clause", "data arrangement", "query output"]
+  },
+  {
+    "question": "What is DISTINCT?",
+    "answer": "DISTINCT removes duplicate values from query results.",
+    "keywords": ["DISTINCT", "remove duplicates", "unique values", "SQL keyword", "data filtering", "query result", "data uniqueness"]
+  },
+  {
+    "question": "What is UNION?",
+    "answer": "UNION combines results of two queries and removes duplicates.",
+    "keywords": ["UNION", "combine queries", "remove duplicates", "SQL operation", "result merging", "data union", "query combination"]
+  },
+  {
+    "question": "What is UNION ALL?",
+    "answer": "UNION ALL combines results of two queries including duplicates.",
+    "keywords": ["UNION ALL", "include duplicates", "combine results", "SQL operation", "data merging", "query combination", "all rows"]
+  },
+  {
+    "question": "What is transaction isolation level?",
+    "answer": "Transaction isolation level defines how transactions interact with each other in terms of visibility.",
+    "keywords": ["isolation level", "transaction control", "data visibility", "concurrency control", "database consistency", "transaction interaction", "ACID"]
+  },
+  {
+    "question": "What is dirty read?",
+    "answer": "Dirty read occurs when a transaction reads uncommitted data from another transaction.",
+    "keywords": ["dirty read", "uncommitted data", "transaction issue", "data inconsistency", "isolation problem", "concurrency issue", "database error"]
+  },
+  {
+    "question": "What is non repeatable read?",
+    "answer": "Non repeatable read occurs when a row is read twice and gives different values.",
+    "keywords": ["non repeatable read", "data inconsistency", "transaction change", "multiple reads", "concurrency issue", "data update", "isolation problem"]
+  },
+  {
+    "question": "What is phantom read?",
+    "answer": "Phantom read occurs when new rows appear in repeated query results.",
+    "keywords": ["phantom read", "new rows", "query inconsistency", "transaction issue", "data change", "concurrency problem", "isolation level"]
+  },
+  {
+    "question": "What is concurrency control?",
+    "answer": "Concurrency control manages simultaneous operations without conflicting with each other.",
+    "keywords": ["concurrency control", "parallel transactions", "data consistency", "conflict handling", "database integrity", "simultaneous access", "transaction management"]
+  },
+  {
+    "question": "What is locking?",
+    "answer": "Locking is a mechanism used to control access to data during transactions.",
+    "keywords": ["locking", "data access control", "transaction lock", "shared lock", "exclusive lock", "concurrency control", "data safety"]
+  },
+  {
+    "question": "What is two phase locking?",
+    "answer": "Two phase locking ensures serializability by dividing transaction into growing and shrinking phases.",
+    "keywords": ["two phase locking", "growing phase", "shrinking phase", "serializability", "transaction control", "locking protocol", "database consistency"]
+  },
+  {
+    "question": "What is serializability?",
+    "answer": "Serializability ensures that concurrent transactions produce the same result as sequential execution.",
+    "keywords": ["serializability", "transaction order", "sequential result", "concurrency control", "data consistency", "schedule correctness", "database integrity"]
+  },
+  {
+    "question": "What is deadlock in DBMS?",
+    "answer": "Deadlock occurs when transactions wait indefinitely for each other’s resources.",
+    "keywords": ["deadlock", "transaction wait", "resource blocking", "circular wait", "concurrency issue", "database lock", "no progress"]
+  },
+  {
+    "question": "What is recovery in DBMS?",
+    "answer": "Recovery ensures that database returns to a consistent state after failure.",
+    "keywords": ["recovery", "failure handling", "data restoration", "transaction rollback", "system crash", "database consistency", "log recovery"]
+  },
+  {
+    "question": "What is log based recovery?",
+    "answer": "Log based recovery uses logs to restore database to a consistent state after failure.",
+    "keywords": ["log based recovery", "transaction log", "redo undo", "failure recovery", "data restoration", "database logs", "system crash"]
+  },
+  {
+    "question": "What is checkpoint?",
+    "answer": "Checkpoint is a point where database state is saved to reduce recovery time.",
+    "keywords": ["checkpoint", "save state", "recovery optimization", "database snapshot", "log reduction", "system recovery", "data consistency"]
+  },
+  {
+    "question": "What is shadow paging?",
+    "answer": "Shadow paging is a recovery technique that maintains two copies of database pages.",
+    "keywords": ["shadow paging", "dual copy", "data recovery", "failure handling", "database pages", "rollback mechanism", "consistency"]
+  },
+  {
+    "question": "What is database security?",
+    "answer": "Database security protects data from unauthorized access and threats.",
+    "keywords": ["database security", "data protection", "unauthorized access", "cyber security", "access control", "data privacy", "security measures"]
+  }
+]

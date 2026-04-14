@@ -1,0 +1,493 @@
+[
+  {
+    "question": "What is Object Oriented Programming?",
+    "answer": "Object Oriented Programming is a programming paradigm based on objects that contain data and methods.",
+    "keywords": ["OOP", "object oriented programming", "class and object", "encapsulation", "inheritance", "polymorphism", "abstraction"]
+  },
+  {
+    "question": "What is a class?",
+    "answer": "A class is a blueprint or template used to create objects.",
+    "keywords": ["class", "blueprint", "object template", "data members", "methods", "structure", "programming"]
+  },
+  {
+    "question": "What is an object?",
+    "answer": "An object is an instance of a class that contains data and methods.",
+    "keywords": ["object", "instance", "class instance", "data and methods", "real world entity", "memory allocation", "programming"]
+  },
+  {
+    "question": "What is encapsulation?",
+    "answer": "Encapsulation is the process of bundling data and methods together and restricting access.",
+    "keywords": ["encapsulation", "data hiding", "access control", "class binding", "secure data", "methods and variables", "OOP concept"]
+  },
+  {
+    "question": "What is abstraction?",
+    "answer": "Abstraction hides implementation details and shows only essential features.",
+    "keywords": ["abstraction", "hide details", "essential features", "interface", "data hiding", "OOP concept", "simplification"]
+  },
+  {
+    "question": "What is inheritance?",
+    "answer": "Inheritance allows a class to acquire properties and methods of another class.",
+    "keywords": ["inheritance", "parent class", "child class", "code reuse", "base class", "derived class", "OOP concept"]
+  },
+  {
+    "question": "What is polymorphism?",
+    "answer": "Polymorphism allows one interface to be used for different data types or methods.",
+    "keywords": ["polymorphism", "multiple forms", "method overloading", "method overriding", "same interface", "different behavior", "OOP concept"]
+  },
+  {
+    "question": "What is method overloading?",
+    "answer": "Method overloading allows multiple methods with same name but different parameters.",
+    "keywords": ["method overloading", "same name", "different parameters", "compile time polymorphism", "function overloading", "static binding", "OOP"]
+  },
+  {
+    "question": "What is method overriding?",
+    "answer": "Method overriding allows a subclass to provide a specific implementation of a method.",
+    "keywords": ["method overriding", "runtime polymorphism", "same method", "subclass implementation", "dynamic binding", "inheritance", "OOP"]
+  },
+  {
+    "question": "What is constructor?",
+    "answer": "A constructor is a special method used to initialize objects.",
+    "keywords": ["constructor", "object initialization", "special method", "class creation", "memory allocation", "default constructor", "parameterized"]
+  },
+  {
+    "question": "What is destructor?",
+    "answer": "A destructor is a method used to destroy an object and free memory.",
+    "keywords": ["destructor", "memory deallocation", "object destruction", "cleanup", "resource release", "class method", "OOP"]
+  },
+  {
+    "question": "What is access specifier?",
+    "answer": "Access specifiers define the accessibility of class members.",
+    "keywords": ["access specifier", "public", "private", "protected", "data access", "visibility", "encapsulation"]
+  },
+  {
+    "question": "What is public access modifier?",
+    "answer": "Public members can be accessed from anywhere in the program.",
+    "keywords": ["public", "access anywhere", "global access", "class member", "visibility", "OOP", "data access"]
+  },
+  {
+    "question": "What is private access modifier?",
+    "answer": "Private members can only be accessed within the same class.",
+    "keywords": ["private", "restricted access", "class only", "data hiding", "security", "encapsulation", "OOP"]
+  },
+  {
+    "question": "What is protected access modifier?",
+    "answer": "Protected members can be accessed within the class and its subclasses.",
+    "keywords": ["protected", "inheritance access", "subclass access", "limited access", "OOP", "class members", "visibility"]
+  },
+  {
+    "question": "What is static keyword?",
+    "answer": "Static keyword is used for class level variables and methods shared among all objects.",
+    "keywords": ["static", "class level", "shared data", "single copy", "memory efficient", "object independent", "OOP"]
+  },
+  {
+    "question": "What is this keyword?",
+    "answer": "This keyword refers to the current instance of a class.",
+    "keywords": ["this keyword", "current object", "instance reference", "self reference", "class object", "OOP", "method access"]
+  },
+  {
+    "question": "What is super keyword?",
+    "answer": "Super keyword refers to the parent class object.",
+    "keywords": ["super keyword", "parent class", "base class", "inheritance", "method call", "constructor call", "OOP"]
+  },
+  {
+    "question": "What is final keyword?",
+    "answer": "Final keyword is used to restrict modification of variables, methods, or classes.",
+    "keywords": ["final", "constant", "no override", "immutable", "restriction", "OOP", "method control"]
+  },
+  {
+    "question": "What is abstract class?",
+    "answer": "An abstract class cannot be instantiated and may contain abstract methods.",
+    "keywords": ["abstract class", "cannot instantiate", "abstract method", "base class", "inheritance", "OOP", "partial implementation"]
+  },
+  {
+    "question": "What is interface?",
+    "answer": "An interface defines a contract with abstract methods that a class must implement.",
+    "keywords": ["interface", "abstract methods", "contract", "implementation", "multiple inheritance", "OOP", "method definition"]
+  },
+  {
+    "question": "What is difference between abstract class and interface?",
+    "answer": "Abstract class can have implemented methods while interface only has abstract methods.",
+    "keywords": ["abstract vs interface", "method implementation", "inheritance", "multiple inheritance", "OOP", "difference", "class vs interface"]
+  },
+  {
+    "question": "What is multiple inheritance?",
+    "answer": "Multiple inheritance allows a class to inherit from more than one class.",
+    "keywords": ["multiple inheritance", "multiple parents", "code reuse", "OOP", "inheritance type", "class hierarchy", "concept"]
+  },
+  {
+    "question": "What is single inheritance?",
+    "answer": "Single inheritance involves one child class inheriting from one parent class.",
+    "keywords": ["single inheritance", "one parent", "child class", "OOP", "class hierarchy", "inheritance type", "simple inheritance"]
+  },
+  {
+    "question": "What is multilevel inheritance?",
+    "answer": "Multilevel inheritance involves a chain of inheritance between classes.",
+    "keywords": ["multilevel inheritance", "inheritance chain", "parent child hierarchy", "OOP", "class levels", "code reuse", "inheritance"]
+  },
+  {
+    "question": "What is hierarchical inheritance?",
+    "answer": "Hierarchical inheritance involves multiple child classes inheriting from one parent class.",
+    "keywords": ["hierarchical inheritance", "one parent many children", "class hierarchy", "OOP", "inheritance structure", "code reuse", "concept"]
+  },
+  {
+    "question": "What is hybrid inheritance?",
+    "answer": "Hybrid inheritance is a combination of two or more types of inheritance.",
+    "keywords": ["hybrid inheritance", "combined inheritance", "multiple types", "OOP", "complex hierarchy", "inheritance", "structure"]
+  },
+  {
+    "question": "What is dynamic binding?",
+    "answer": "Dynamic binding resolves method calls at runtime.",
+    "keywords": ["dynamic binding", "runtime", "method resolution", "late binding", "polymorphism", "OOP", "execution"]
+  },
+  {
+    "question": "What is static binding?",
+    "answer": "Static binding resolves method calls at compile time.",
+    "keywords": ["static binding", "compile time", "early binding", "method resolution", "OOP", "performance", "execution"]
+  },
+  {
+    "question": "What is message passing?",
+    "answer": "Message passing is communication between objects using method calls.",
+    "keywords": ["message passing", "object communication", "method call", "data transfer", "OOP", "interaction", "objects"]
+  },
+  {
+    "question": "What is object cloning?",
+    "answer": "Object cloning creates a copy of an existing object.",
+    "keywords": ["object cloning", "copy object", "duplicate", "memory copy", "OOP", "object creation", "clone method"]
+  },
+  {
+    "question": "What is shallow copy?",
+    "answer": "Shallow copy copies references of objects instead of actual values.",
+    "keywords": ["shallow copy", "reference copy", "same memory", "object reference", "OOP", "copy method", "data sharing"]
+  },
+  {
+    "question": "What is deep copy?",
+    "answer": "Deep copy creates a new copy of all objects recursively.",
+    "keywords": ["deep copy", "new object", "independent copy", "memory allocation", "OOP", "data duplication", "copy method"]
+  },
+  {
+    "question": "What is garbage collection?",
+    "answer": "Garbage collection automatically frees unused memory.",
+    "keywords": ["garbage collection", "memory management", "automatic cleanup", "unused objects", "heap memory", "OOP", "resource management"]
+  },
+  {
+    "question": "What is object initialization?",
+    "answer": "Object initialization is the process of assigning initial values to object variables.",
+    "keywords": ["object initialization", "assign values", "constructor use", "initial state", "object creation", "class instance", "OOP"]
+  },
+  {
+    "question": "What is default constructor?",
+    "answer": "A default constructor is a constructor with no parameters that initializes objects with default values.",
+    "keywords": ["default constructor", "no parameters", "object initialization", "automatic call", "class creation", "OOP", "constructor"]
+  },
+  {
+    "question": "What is parameterized constructor?",
+    "answer": "A parameterized constructor accepts arguments to initialize objects with specific values.",
+    "keywords": ["parameterized constructor", "arguments", "object initialization", "custom values", "constructor", "OOP", "class instance"]
+  },
+  {
+    "question": "What is copy constructor?",
+    "answer": "A copy constructor creates a new object as a copy of an existing object.",
+    "keywords": ["copy constructor", "object copy", "duplicate object", "same values", "constructor", "OOP", "memory copy"]
+  },
+  {
+    "question": "What is constructor overloading?",
+    "answer": "Constructor overloading allows multiple constructors with different parameters in a class.",
+    "keywords": ["constructor overloading", "multiple constructors", "different parameters", "compile time", "OOP", "class creation", "polymorphism"]
+  },
+  {
+    "question": "What is function overloading?",
+    "answer": "Function overloading allows multiple functions with the same name but different parameters.",
+    "keywords": ["function overloading", "same function name", "different arguments", "compile time polymorphism", "OOP", "method overloading", "static binding"]
+  },
+  {
+    "question": "What is operator overloading?",
+    "answer": "Operator overloading allows operators to behave differently based on operands.",
+    "keywords": ["operator overloading", "custom operators", "polymorphism", "same operator different behavior", "OOP", "compile time", "function"]
+  },
+  {
+    "question": "What is virtual function?",
+    "answer": "A virtual function is used to achieve runtime polymorphism in OOP.",
+    "keywords": ["virtual function", "runtime polymorphism", "dynamic binding", "method overriding", "OOP", "inheritance", "function"]
+  },
+  {
+    "question": "What is pure virtual function?",
+    "answer": "A pure virtual function is a function declared but not implemented in a base class.",
+    "keywords": ["pure virtual function", "abstract method", "no implementation", "inheritance", "OOP", "base class", "interface"]
+  },
+  {
+    "question": "What is virtual destructor?",
+    "answer": "A virtual destructor ensures proper cleanup of derived class objects.",
+    "keywords": ["virtual destructor", "memory cleanup", "inheritance", "destructor call", "OOP", "object destruction", "polymorphism"]
+  },
+  {
+    "question": "What is friend function?",
+    "answer": "A friend function can access private and protected members of a class.",
+    "keywords": ["friend function", "access private", "class member access", "non member function", "OOP", "friend keyword", "data access"]
+  },
+  {
+    "question": "What is friend class?",
+    "answer": "A friend class can access private and protected members of another class.",
+    "keywords": ["friend class", "access private members", "class relationship", "OOP", "friend keyword", "data access", "inheritance"]
+  },
+  {
+    "question": "What is inline function?",
+    "answer": "An inline function is expanded at compile time to reduce function call overhead.",
+    "keywords": ["inline function", "compile time", "code expansion", "performance", "function call", "OOP", "optimization"]
+  },
+  {
+    "question": "What is namespace?",
+    "answer": "Namespace is used to organize code and prevent name conflicts.",
+    "keywords": ["namespace", "code organization", "name conflict", "scope", "program structure", "OOP", "modularity"]
+  },
+  {
+    "question": "What is function overriding vs overloading?",
+    "answer": "Overloading occurs at compile time while overriding occurs at runtime.",
+    "keywords": ["overriding vs overloading", "compile time", "runtime", "polymorphism", "method difference", "OOP", "binding"]
+  },
+  {
+    "question": "What is aggregation?",
+    "answer": "Aggregation represents a weak relationship where objects can exist independently.",
+    "keywords": ["aggregation", "has a relationship", "weak association", "object independence", "OOP", "class relationship", "design"]
+  },
+  {
+    "question": "What is composition?",
+    "answer": "Composition represents a strong relationship where objects cannot exist independently.",
+    "keywords": ["composition", "strong relationship", "part of", "object dependency", "OOP", "class design", "association"]
+  },
+  {
+    "question": "What is association?",
+    "answer": "Association is a relationship between two classes.",
+    "keywords": ["association", "class relationship", "object interaction", "OOP", "connection", "data link", "design"]
+  },
+  {
+    "question": "What is dependency?",
+    "answer": "Dependency indicates that one class uses another class.",
+    "keywords": ["dependency", "class usage", "temporary relationship", "OOP", "design concept", "code reuse", "interaction"]
+  },
+  {
+    "question": "What is coupling?",
+    "answer": "Coupling measures the degree of dependency between modules.",
+    "keywords": ["coupling", "dependency", "module interaction", "tight coupling", "loose coupling", "software design", "OOP"]
+  },
+  {
+    "question": "What is cohesion?",
+    "answer": "Cohesion measures how closely related functions within a module are.",
+    "keywords": ["cohesion", "module relation", "function grouping", "high cohesion", "software design", "OOP", "code quality"]
+  },
+  {
+    "question": "What is tight coupling?",
+    "answer": "Tight coupling means modules are highly dependent on each other.",
+    "keywords": ["tight coupling", "high dependency", "module interaction", "low flexibility", "software design", "OOP", "maintenance"]
+  },
+  {
+    "question": "What is loose coupling?",
+    "answer": "Loose coupling means modules are independent and less dependent.",
+    "keywords": ["loose coupling", "low dependency", "modular design", "flexibility", "software design", "OOP", "maintainability"]
+  },
+  {
+    "question": "What is SOLID principles?",
+    "answer": "SOLID principles are design guidelines for writing maintainable and scalable code.",
+    "keywords": ["SOLID", "design principles", "clean code", "software design", "OOP", "maintainability", "scalability"]
+  },
+  {
+    "question": "What is single responsibility principle?",
+    "answer": "A class should have only one reason to change.",
+    "keywords": ["SRP", "single responsibility", "one task", "clean design", "OOP", "software principle", "modularity"]
+  },
+  {
+    "question": "What is open closed principle?",
+    "answer": "Software entities should be open for extension but closed for modification.",
+    "keywords": ["OCP", "open closed", "extendable", "no modification", "software design", "OOP", "principle"]
+  },
+  {
+    "question": "What is Liskov substitution principle?",
+    "answer": "Derived classes should be substitutable for their base classes.",
+    "keywords": ["LSP", "substitution", "inheritance", "polymorphism", "OOP", "design principle", "class hierarchy"]
+  },
+  {
+    "question": "What is interface segregation principle?",
+    "answer": "Clients should not be forced to depend on methods they do not use.",
+    "keywords": ["ISP", "interface segregation", "small interfaces", "modularity", "OOP", "design principle", "clean code"]
+  },
+  {
+    "question": "What is dependency inversion principle?",
+    "answer": "High level modules should not depend on low level modules.",
+    "keywords": ["DIP", "dependency inversion", "abstraction", "decoupling", "OOP", "design principle", "architecture"]
+  },
+  {
+    "question": "What is design pattern?",
+    "answer": "Design patterns are reusable solutions to common software problems.",
+    "keywords": ["design pattern", "reusable solution", "software design", "OOP", "architecture", "coding practice", "pattern"]
+  },
+  {
+    "question": "What is singleton pattern?",
+    "answer": "Singleton ensures only one instance of a class exists.",
+    "keywords": ["singleton", "single instance", "global access", "design pattern", "OOP", "memory control", "object creation"]
+  },
+  {
+    "question": "What is factory pattern?",
+    "answer": "Factory pattern creates objects without specifying exact class.",
+    "keywords": ["factory pattern", "object creation", "abstraction", "design pattern", "OOP", "flexibility", "instantiation"]
+  },
+  {
+    "question": "What is observer pattern?",
+    "answer": "Observer pattern defines dependency where objects are notified of changes.",
+    "keywords": ["observer pattern", "event notification", "dependency", "design pattern", "OOP", "listener", "update"]
+  },
+  {
+    "question": "What is MVC architecture?",
+    "answer": "MVC separates application into model, view, and controller.",
+    "keywords": ["MVC", "model view controller", "separation", "architecture", "design pattern", "OOP", "application structure"]
+  },
+  
+  {
+    "question": "What is encapsulation vs abstraction?",
+    "answer": "Encapsulation hides data while abstraction hides implementation details.",
+    "keywords": ["encapsulation vs abstraction", "data hiding", "implementation hiding", "OOP difference", "concept comparison", "class design", "principle"]
+  },
+  {
+    "question": "What is object slicing?",
+    "answer": "Object slicing occurs when a derived class object is assigned to a base class object losing extra attributes.",
+    "keywords": ["object slicing", "base class copy", "derived loss", "data truncation", "inheritance issue", "OOP", "object assignment"]
+  },
+  {
+    "question": "What is late binding?",
+    "answer": "Late binding resolves method calls at runtime.",
+    "keywords": ["late binding", "runtime binding", "dynamic binding", "polymorphism", "method resolution", "OOP", "execution"]
+  },
+  {
+    "question": "What is early binding?",
+    "answer": "Early binding resolves method calls at compile time.",
+    "keywords": ["early binding", "compile time", "static binding", "method resolution", "OOP", "execution", "performance"]
+  },
+  {
+    "question": "What is dynamic memory allocation?",
+    "answer": "Dynamic memory allocation allocates memory at runtime using heap.",
+    "keywords": ["dynamic memory", "runtime allocation", "heap memory", "new operator", "memory management", "OOP", "allocation"]
+  },
+  {
+    "question": "What is stack vs heap memory?",
+    "answer": "Stack is used for static memory while heap is used for dynamic memory allocation.",
+    "keywords": ["stack vs heap", "memory types", "static memory", "dynamic memory", "allocation", "execution", "OOP"]
+  },
+  {
+    "question": "What is new operator?",
+    "answer": "New operator is used to allocate memory dynamically.",
+    "keywords": ["new operator", "dynamic allocation", "heap memory", "object creation", "runtime", "OOP", "memory"]
+  },
+  {
+    "question": "What is delete operator?",
+    "answer": "Delete operator is used to free dynamically allocated memory.",
+    "keywords": ["delete operator", "memory deallocation", "free memory", "heap cleanup", "resource management", "OOP", "memory"]
+  },
+  {
+    "question": "What is function pointer?",
+    "answer": "Function pointer stores address of a function and allows dynamic function calls.",
+    "keywords": ["function pointer", "function address", "dynamic call", "pointer", "programming", "OOP", "execution"]
+  },
+  {
+    "question": "What is virtual table?",
+    "answer": "Virtual table stores addresses of virtual functions for dynamic binding.",
+    "keywords": ["vtable", "virtual table", "function address", "dynamic binding", "polymorphism", "OOP", "runtime"]
+  },
+  {
+    "question": "What is abstract data type?",
+    "answer": "Abstract data type defines data structure and operations without implementation.",
+    "keywords": ["ADT", "abstract data type", "data structure", "operations", "implementation hidden", "OOP", "abstraction"]
+  },
+  {
+    "question": "What is wrapper class?",
+    "answer": "Wrapper class converts primitive data types into objects.",
+    "keywords": ["wrapper class", "primitive to object", "data conversion", "object representation", "OOP", "class", "programming"]
+  },
+  {
+    "question": "What is immutability?",
+    "answer": "Immutability means object state cannot be changed after creation.",
+    "keywords": ["immutability", "unchangeable object", "constant state", "data safety", "OOP", "object design", "programming"]
+  },
+  {
+    "question": "What is serialization?",
+    "answer": "Serialization converts an object into a byte stream for storage or transfer.",
+    "keywords": ["serialization", "object to byte stream", "data transfer", "storage", "OOP", "file handling", "network"]
+  },
+  {
+    "question": "What is deserialization?",
+    "answer": "Deserialization converts byte stream back into an object.",
+    "keywords": ["deserialization", "byte to object", "data recovery", "object reconstruction", "OOP", "file handling", "network"]
+  },
+  {
+    "question": "What is reflection?",
+    "answer": "Reflection allows a program to inspect and modify its structure at runtime.",
+    "keywords": ["reflection", "runtime inspection", "class info", "dynamic behavior", "OOP", "programming", "metadata"]
+  },
+  {
+    "question": "What is package?",
+    "answer": "A package is a collection of related classes and interfaces.",
+    "keywords": ["package", "group of classes", "namespace", "code organization", "modularity", "OOP", "programming"]
+  },
+  {
+    "question": "What is module?",
+    "answer": "A module is a reusable unit of code containing functions and classes.",
+    "keywords": ["module", "code reuse", "functions", "classes", "program structure", "OOP", "software design"]
+  },
+  {
+    "question": "What is interface vs class?",
+    "answer": "Class can have implementation while interface defines only method signatures.",
+    "keywords": ["interface vs class", "implementation", "method definition", "OOP difference", "abstraction", "design", "programming"]
+  },
+  {
+    "question": "What is object pool?",
+    "answer": "Object pool is a design pattern that reuses objects instead of creating new ones.",
+    "keywords": ["object pool", "reuse objects", "performance", "memory optimization", "design pattern", "OOP", "resource management"]
+  },
+  {
+    "question": "What is builder pattern?",
+    "answer": "Builder pattern constructs complex objects step by step.",
+    "keywords": ["builder pattern", "object construction", "step by step", "design pattern", "OOP", "flexibility", "creation"]
+  },
+  {
+    "question": "What is prototype pattern?",
+    "answer": "Prototype pattern creates objects by copying existing objects.",
+    "keywords": ["prototype pattern", "object cloning", "copy object", "design pattern", "OOP", "creation", "efficiency"]
+  },
+  {
+    "question": "What is adapter pattern?",
+    "answer": "Adapter pattern allows incompatible interfaces to work together.",
+    "keywords": ["adapter pattern", "interface conversion", "compatibility", "design pattern", "OOP", "integration", "structure"]
+  },
+  {
+    "question": "What is decorator pattern?",
+    "answer": "Decorator pattern adds functionality to objects dynamically.",
+    "keywords": ["decorator pattern", "add behavior", "dynamic extension", "design pattern", "OOP", "flexibility", "object"]
+  },
+  {
+    "question": "What is strategy pattern?",
+    "answer": "Strategy pattern allows selecting algorithm at runtime.",
+    "keywords": ["strategy pattern", "algorithm selection", "runtime behavior", "design pattern", "OOP", "flexibility", "implementation"]
+  },
+  {
+    "question": "What is command pattern?",
+    "answer": "Command pattern encapsulates a request as an object.",
+    "keywords": ["command pattern", "request object", "decoupling", "design pattern", "OOP", "execution", "flexibility"]
+  },
+  {
+    "question": "What is facade pattern?",
+    "answer": "Facade pattern provides a simplified interface to complex systems.",
+    "keywords": ["facade pattern", "simplified interface", "complex system", "design pattern", "OOP", "abstraction", "structure"]
+  },
+  {
+    "question": "What is dependency injection?",
+    "answer": "Dependency injection provides objects their dependencies externally.",
+    "keywords": ["dependency injection", "external dependency", "loose coupling", "design pattern", "OOP", "inversion", "architecture"]
+  },
+  {
+    "question": "What is inversion of control?",
+    "answer": "Inversion of control shifts control of object creation to external framework.",
+    "keywords": ["inversion of control", "IOC", "control flow", "dependency management", "framework", "OOP", "architecture"]
+  },
+  {
+    "question": "What is clean code in OOP?",
+    "answer": "Clean code is writing readable, maintainable, and efficient code following best practices.",
+    "keywords": ["clean code", "readability", "maintainability", "best practices", "software design", "OOP", "coding standards"]
+  }
+]

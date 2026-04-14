@@ -1,0 +1,254 @@
+
+
+[
+  {
+    "question": "Tell me about yourself",
+    "answer": "I am a computer science student with strong interest in software development and problem solving. I have worked on projects involving AI and web technologies and I am continuously improving my skills.",
+    "keywords": ["introduction", "background", "skills", "projects", "learning", "career goal", "self introduction"]
+  },
+  {
+    "question": "What are your strengths?",
+    "answer": "My strengths include problem solving, consistency, quick learning, and ability to work in a team.",
+    "keywords": ["strengths", "problem solving", "teamwork", "quick learner", "hardworking", "adaptability", "skills"]
+  },
+  {
+    "question": "What are your weaknesses?",
+    "answer": "I sometimes focus too much on details, but I am working on managing time efficiently.",
+    "keywords": ["weakness", "self improvement", "time management", "learning", "growth", "honesty", "development"]
+  },
+  {
+    "question": "Why should we hire you?",
+    "answer": "I have the required skills, a strong willingness to learn, and I am dedicated to contributing to the organization.",
+    "keywords": ["hire me", "skills", "dedication", "learning attitude", "team contribution", "fit for role", "value"]
+  },
+  {
+    "question": "Where do you see yourself in 5 years?",
+    "answer": "I see myself growing professionally, gaining expertise, and contributing to meaningful projects.",
+    "keywords": ["future goals", "career growth", "long term", "learning", "experience", "development", "vision"]
+  },
+  {
+    "question": "Why do you want this job?",
+    "answer": "This role aligns with my skills and interests and offers opportunities for growth.",
+    "keywords": ["job interest", "career alignment", "learning", "growth", "skills match", "motivation", "opportunity"]
+  },
+  {
+    "question": "What motivates you?",
+    "answer": "I am motivated by challenges, learning new things, and achieving goals.",
+    "keywords": ["motivation", "challenge", "learning", "achievement", "goals", "growth", "drive"]
+  },
+  {
+    "question": "How do you handle pressure?",
+    "answer": "I stay calm, prioritize tasks, and focus on solving problems step by step.",
+    "keywords": ["pressure handling", "calm", "focus", "problem solving", "time management", "stress", "productivity"]
+  },
+  {
+    "question": "What are your hobbies?",
+    "answer": "My hobbies include learning new technologies, coding, and staying active.",
+    "keywords": ["hobbies", "learning", "coding", "interests", "activities", "self development", "balance"]
+  },
+  {
+    "question": "Are you a team player?",
+    "answer": "Yes, I enjoy collaborating and contributing effectively in team environments.",
+    "keywords": ["team player", "collaboration", "communication", "teamwork", "group work", "cooperation", "support"]
+  },
+  {
+    "question": "What is your greatest achievement?",
+    "answer": "My greatest achievement is completing projects that improved my skills and confidence.",
+    "keywords": ["achievement", "success", "project", "skills", "learning", "confidence", "growth"]
+  },
+  {
+    "question": "Why did you choose your field?",
+    "answer": "I chose this field because of my interest in technology and problem solving.",
+    "keywords": ["career choice", "interest", "technology", "problem solving", "passion", "learning", "decision"]
+  },
+  {
+    "question": "How do you manage time?",
+    "answer": "I prioritize tasks, set deadlines, and stay organized.",
+    "keywords": ["time management", "priorities", "planning", "deadlines", "organization", "efficiency", "productivity"]
+  },
+  {
+    "question": "What is your leadership experience?",
+    "answer": "I have led small teams in projects where I coordinated tasks and ensured timely completion.",
+    "keywords": ["leadership", "team management", "responsibility", "coordination", "decision making", "guidance", "experience"]
+  },
+  {
+    "question": "What is your communication style?",
+    "answer": "I communicate clearly, listen actively, and adapt to different situations.",
+    "keywords": ["communication", "clarity", "listening", "interaction", "team communication", "adaptability", "skills"]
+  },
+  {
+    "question": "How do you handle failure?",
+    "answer": "I analyze mistakes, learn from them, and improve for the future.",
+    "keywords": ["failure", "learning", "improvement", "growth mindset", "analysis", "resilience", "development"]
+  },
+  {
+    "question": "What are your short term goals?",
+    "answer": "My short term goal is to gain practical experience and improve my technical skills.",
+    "keywords": ["short term goals", "learning", "experience", "skills", "career start", "development", "focus"]
+  },
+  {
+    "question": "What are your long term goals?",
+    "answer": "My long term goal is to become an expert in my field and contribute to impactful projects.",
+    "keywords": ["long term goals", "expertise", "career growth", "impact", "learning", "development", "future"]
+  },
+  {
+    "question": "How do you handle criticism?",
+    "answer": "I accept feedback positively and use it to improve myself.",
+    "keywords": ["criticism", "feedback", "improvement", "learning", "positive attitude", "growth", "self development"]
+  },
+  {
+    "question": "Do you prefer working alone or in a team?",
+    "answer": "I am comfortable working both independently and in a team.",
+    "keywords": ["team vs individual", "flexibility", "collaboration", "independence", "adaptability", "work style", "balance"]
+  },
+  {
+    "question": "What makes you unique?",
+    "answer": "My combination of technical skills, learning attitude, and consistency makes me unique.",
+    "keywords": ["unique", "skills", "attitude", "consistency", "learning", "personality", "strength"]
+  },
+  {
+    "question": "How do you learn new skills?",
+    "answer": "I learn through practice, online resources, and hands-on projects.",
+    "keywords": ["learning skills", "practice", "projects", "online learning", "self learning", "growth", "development"]
+  },
+  {
+    "question": "What is your biggest challenge?",
+    "answer": "My biggest challenge was managing multiple tasks, which I overcame by improving time management.",
+    "keywords": ["challenge", "time management", "problem solving", "learning", "growth", "experience", "improvement"]
+  },
+  {
+    "question": "What do you know about our company?",
+    "answer": "I know that your company focuses on innovation and delivers quality solutions in the industry.",
+    "keywords": ["company knowledge", "research", "industry", "innovation", "services", "organization", "interest"]
+  },
+  {
+    "question": "Do you have any questions for us?",
+    "answer": "Yes, I would like to know about growth opportunities and team structure.",
+    "keywords": ["questions", "interest", "growth", "team", "learning", "career", "organization"]
+  },
+  {
+    "question": "Describe a situation where you worked in a team",
+    "answer": "I worked in a team project where we divided tasks, communicated effectively, and completed the work on time.",
+    "keywords": ["teamwork", "collaboration", "communication", "project work", "task division", "team contribution", "group effort"]
+  },
+  {
+    "question": "How do you handle conflict in a team?",
+    "answer": "I listen to all perspectives, stay calm, and try to find a solution that benefits everyone.",
+    "keywords": ["conflict resolution", "team issues", "communication", "problem solving", "calm approach", "understanding", "teamwork"]
+  },
+  {
+    "question": "What do you do if you don’t know the answer?",
+    "answer": "I stay honest, try to think logically, and express my approach to solving the problem.",
+    "keywords": ["unknown answer", "honesty", "logical thinking", "problem solving", "approach", "learning attitude", "confidence"]
+  },
+  {
+    "question": "How do you prioritize tasks?",
+    "answer": "I prioritize based on deadlines, importance, and impact of the task.",
+    "keywords": ["prioritization", "task management", "deadlines", "importance", "planning", "efficiency", "time management"]
+  },
+  {
+    "question": "What is your ideal work environment?",
+    "answer": "My ideal work environment is collaborative, supportive, and encourages learning.",
+    "keywords": ["work environment", "team culture", "learning", "supportive", "growth", "collaboration", "productivity"]
+  },
+  {
+    "question": "How do you handle multiple deadlines?",
+    "answer": "I organize tasks, break them down, and work efficiently to meet deadlines.",
+    "keywords": ["multiple deadlines", "time management", "planning", "task breakdown", "efficiency", "productivity", "organization"]
+  },
+  {
+    "question": "What is your biggest failure?",
+    "answer": "A failure taught me the importance of planning and learning from mistakes.",
+    "keywords": ["failure", "learning", "mistake", "growth", "experience", "improvement", "reflection"]
+  },
+  {
+    "question": "How do you stay updated with technology?",
+    "answer": "I follow online resources, courses, and practice regularly.",
+    "keywords": ["learning", "technology update", "online resources", "practice", "continuous learning", "self improvement", "skills"]
+  },
+  {
+    "question": "How do you work under tight deadlines?",
+    "answer": "I stay focused, avoid distractions, and work efficiently to complete tasks on time.",
+    "keywords": ["tight deadlines", "focus", "efficiency", "time management", "pressure handling", "productivity", "task completion"]
+  },
+  {
+    "question": "What is your decision making approach?",
+    "answer": "I analyze options, consider consequences, and choose the best solution.",
+    "keywords": ["decision making", "analysis", "problem solving", "logical thinking", "evaluation", "choice", "approach"]
+  },
+  {
+    "question": "How do you deal with difficult people?",
+    "answer": "I stay calm, communicate clearly, and try to understand their perspective.",
+    "keywords": ["difficult people", "communication", "patience", "understanding", "conflict handling", "teamwork", "professionalism"]
+  },
+  {
+    "question": "What would you do if you disagree with your manager?",
+    "answer": "I would respectfully share my opinion and understand their perspective.",
+    "keywords": ["disagreement", "respect", "communication", "professionalism", "discussion", "teamwork", "decision"]
+  },
+  {
+    "question": "How do you ensure quality in your work?",
+    "answer": "I review my work, test thoroughly, and focus on details.",
+    "keywords": ["quality", "testing", "review", "accuracy", "attention to detail", "improvement", "performance"]
+  },
+  {
+    "question": "What are your career expectations?",
+    "answer": "I expect learning opportunities, growth, and meaningful work.",
+    "keywords": ["career expectations", "growth", "learning", "opportunities", "development", "job satisfaction", "future"]
+  },
+  {
+    "question": "How do you adapt to new environments?",
+    "answer": "I observe, learn quickly, and adjust my approach accordingly.",
+    "keywords": ["adaptability", "new environment", "learning", "flexibility", "adjustment", "growth", "experience"]
+  },
+  {
+    "question": "What is your work ethic?",
+    "answer": "I believe in consistency, discipline, and delivering quality work.",
+    "keywords": ["work ethic", "discipline", "consistency", "responsibility", "commitment", "quality", "professionalism"]
+  },
+  {
+    "question": "What would you do if you made a mistake?",
+    "answer": "I would accept it, fix it, and learn from it.",
+    "keywords": ["mistake", "accountability", "learning", "improvement", "responsibility", "problem solving", "growth"]
+  },
+  {
+    "question": "What is your biggest strength in a team?",
+    "answer": "My biggest strength is communication and ability to support teammates.",
+    "keywords": ["team strength", "communication", "support", "collaboration", "teamwork", "interaction", "contribution"]
+  },
+  {
+    "question": "How do you handle repetitive tasks?",
+    "answer": "I stay focused and maintain consistency while looking for ways to improve efficiency.",
+    "keywords": ["repetitive tasks", "consistency", "focus", "efficiency", "productivity", "improvement", "discipline"]
+  },
+  {
+    "question": "What is your learning style?",
+    "answer": "I learn best through hands-on practice and real-world examples.",
+    "keywords": ["learning style", "practice", "hands on", "examples", "experience", "understanding", "skills"]
+  },
+  {
+    "question": "How do you deal with uncertainty?",
+    "answer": "I stay calm, analyze the situation, and make informed decisions.",
+    "keywords": ["uncertainty", "analysis", "decision making", "calm", "problem solving", "adaptability", "thinking"]
+  },
+  {
+    "question": "What would you do if given a task outside your skill set?",
+    "answer": "I would learn quickly and seek guidance to complete the task.",
+    "keywords": ["new task", "learning", "adaptability", "guidance", "effort", "growth", "problem solving"]
+  },
+  {
+    "question": "How do you define success?",
+    "answer": "Success means achieving goals while continuously learning and growing.",
+    "keywords": ["success", "goals", "achievement", "growth", "learning", "progress", "career"]
+  },
+  {
+    "question": "What is your biggest motivation to work?",
+    "answer": "My motivation is to grow, learn, and achieve meaningful results.",
+    "keywords": ["motivation", "growth", "learning", "achievement", "purpose", "career", "drive"]
+  },
+  {
+    "question": "How do you manage distractions?",
+    "answer": "I minimize distractions by focusing on priorities and maintaining discipline.",
+    "keywords": ["distractions", "focus", "discipline", "time management", "productivity", "priorities", "efficiency"]
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a field of artificial intelligence that enables systems to learn patterns from data and make predictions without being explicitly programmed.",
+    "keywords": ["machine learning", "learn from data", "pattern recognition"]
+  },
+  {
+    "question": "What are the types of Machine Learning?",
+    "answer": "The main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning.",
+    "keywords": ["supervised learning", "unsupervised learning", "reinforcement learning"]
+  },
+  {
+    "question": "What is supervised learning?",
+    "answer": "Supervised learning is a type of machine learning where the model is trained on labeled data to make predictions.",
+    "keywords": ["supervised learning", "labeled data", "prediction"]
+  },
+  {
+    "question": "What is unsupervised learning?",
+    "answer": "Unsupervised learning is a type of machine learning where the model learns patterns from unlabeled data.",
+    "keywords": ["unsupervised learning", "unlabeled data", "pattern discovery"]
+  },
+  {
+    "question": "What is reinforcement learning?",
+    "answer": "Reinforcement learning is a type of learning where an agent learns by interacting with an environment and receiving rewards or penalties.",
+    "keywords": ["reinforcement learning", "agent environment", "reward system"]
+  },
+  {
+    "question": "What is a model in machine learning?",
+    "answer": "A model is a mathematical representation learned from data that is used to make predictions or decisions.",
+    "keywords": ["model", "mathematical representation", "prediction"]
+  },
+  {
+    "question": "What is training data?",
+    "answer": "Training data is the dataset used to train a machine learning model to learn patterns.",
+    "keywords": ["training data", "learning dataset", "model training"]
+  },
+  {
+    "question": "What is testing data?",
+    "answer": "Testing data is used to evaluate the performance of a trained model on unseen data.",
+    "keywords": ["testing data", "model evaluation", "unseen data"]
+  },
+  {
+    "question": "What is overfitting?",
+    "answer": "Overfitting occurs when a model learns the training data too well and fails to generalize to new data.",
+    "keywords": ["overfitting", "training data memorization", "poor generalization"]
+  },
+  {
+    "question": "What is underfitting?",
+    "answer": "Underfitting occurs when a model is too simple to capture the underlying patterns in the data.",
+    "keywords": ["underfitting", "simple model", "poor performance"]
+  },
+  {
+    "question": "What is a feature?",
+    "answer": "A feature is an individual measurable property or characteristic used as input to a machine learning model.",
+    "keywords": ["feature", "input variable", "data attribute"]
+  },
+  {
+    "question": "What is label?",
+    "answer": "A label is the output variable or target that a supervised learning model tries to predict.",
+    "keywords": ["label", "target variable", "output"]
+  },
+  {
+    "question": "What is classification?",
+    "answer": "Classification is a supervised learning task where the output is a categorical label.",
+    "keywords": ["classification", "categorical output", "supervised task"]
+  },
+  {
+    "question": "What is regression?",
+    "answer": "Regression is a supervised learning task where the output is a continuous value.",
+    "keywords": ["regression", "continuous output", "prediction"]
+  },
+  {
+    "question": "What is a loss function?",
+    "answer": "A loss function measures the difference between predicted output and actual output.",
+    "keywords": ["loss function", "prediction error", "model evaluation"]
+  },
+  {
+    "question": "What is accuracy?",
+    "answer": "Accuracy is the ratio of correct predictions to total predictions made by the model.",
+    "keywords": ["accuracy", "correct predictions", "evaluation metric"]
+  },
+  {
+    "question": "What is precision?",
+    "answer": "Precision is the ratio of true positive predictions to total predicted positives.",
+    "keywords": ["precision", "true positives", "prediction quality"]
+  },
+  {
+    "question": "What is recall?",
+    "answer": "Recall is the ratio of true positive predictions to actual positives in the dataset.",
+    "keywords": ["recall", "true positives", "actual positives"]
+  },
+  {
+    "question": "What is F1 score?",
+    "answer": "F1 score is the harmonic mean of precision and recall used to evaluate classification models.",
+    "keywords": ["F1 score", "precision recall", "harmonic mean"]
+  },
+  {
+    "question": "What is confusion matrix?",
+    "answer": "A confusion matrix is a table used to evaluate classification models by showing true and false predictions.",
+    "keywords": ["confusion matrix", "true false", "classification evaluation"]
+  },
+  {
+    "question": "What is bias in machine learning?",
+    "answer": "Bias is the error introduced by approximating a real-world problem with a simplified model.",
+    "keywords": ["bias", "model simplification", "systematic error"]
+  },
+  {
+    "question": "What is variance in machine learning?",
+    "answer": "Variance is the error caused by a model being too sensitive to small fluctuations in the training data.",
+    "keywords": ["variance", "sensitivity", "data fluctuation"]
+  },
+  {
+    "question": "What is bias-variance tradeoff?",
+    "answer": "Bias-variance tradeoff is the balance between underfitting and overfitting to achieve optimal model performance.",
+    "keywords": ["bias variance tradeoff", "underfitting overfitting", "model balance"]
+  },
+  {
+    "question": "What is cross validation?",
+    "answer": "Cross validation is a technique used to evaluate models by splitting data into training and validation sets multiple times.",
+    "keywords": ["cross validation", "data splitting", "model evaluation"]
+  },
+  {
+    "question": "What is k-fold cross validation?",
+    "answer": "K-fold cross validation divides data into k parts and trains the model k times using different validation sets.",
+    "keywords": ["k fold", "multiple splits", "validation technique"]
+  },
+  {
+    "question": "What is train test split?",
+    "answer": "Train test split divides data into training and testing sets to evaluate model performance.",
+    "keywords": ["train test split", "data division", "model evaluation"]
+  },
+  {
+    "question": "What is feature scaling?",
+    "answer": "Feature scaling is the process of normalizing or standardizing features to bring them to a similar range.",
+    "keywords": ["feature scaling", "normalization", "standardization"]
+  },
+  {
+    "question": "What is normalization?",
+    "answer": "Normalization scales data to a fixed range typically between 0 and 1.",
+    "keywords": ["normalization", "0 to 1 range", "data scaling"]
+  },
+  {
+    "question": "What is standardization?",
+    "answer": "Standardization transforms data to have zero mean and unit variance.",
+    "keywords": ["standardization", "zero mean", "unit variance"]
+  },
+  {
+    "question": "What is linear regression?",
+    "answer": "Linear regression is a supervised learning algorithm that models the relationship between input and output using a straight line.",
+    "keywords": ["linear regression", "line relationship", "continuous prediction"]
+  },
+  {
+    "question": "What is logistic regression?",
+    "answer": "Logistic regression is a classification algorithm that predicts probabilities using a sigmoid function.",
+    "keywords": ["logistic regression", "sigmoid function", "classification"]
+  },
+  {
+    "question": "What is sigmoid function?",
+    "answer": "Sigmoid function maps input values into a range between 0 and 1 and is used in logistic regression.",
+    "keywords": ["sigmoid function", "0 to 1", "probability output"]
+  },
+  {
+    "question": "What is gradient descent?",
+    "answer": "Gradient descent is an optimization algorithm used to minimize loss by updating parameters iteratively.",
+    "keywords": ["gradient descent", "loss minimization", "parameter update"]
+  },
+  {
+    "question": "What is learning rate?",
+    "answer": "Learning rate controls how much the model parameters are updated during training.",
+    "keywords": ["learning rate", "step size", "training control"]
+  },
+  {
+    "question": "What is batch gradient descent?",
+    "answer": "Batch gradient descent uses the entire dataset to compute gradients for each update.",
+    "keywords": ["batch gradient descent", "full dataset", "update step"]
+  },
+  {
+    "question": "What is stochastic gradient descent?",
+    "answer": "Stochastic gradient descent updates model parameters using one data point at a time.",
+    "keywords": ["stochastic gradient descent", "single sample", "fast updates"]
+  },
+  {
+    "question": "What is mini batch gradient descent?",
+    "answer": "Mini batch gradient descent updates parameters using a small subset of the dataset.",
+    "keywords": ["mini batch", "subset data", "efficient training"]
+  },
+  {
+    "question": "What is cost function?",
+    "answer": "Cost function measures how well the model is performing by calculating the difference between predicted and actual values.",
+    "keywords": ["cost function", "error measurement", "model performance"]
+  },
+  {
+    "question": "What is regularization?",
+    "answer": "Regularization is a technique used to prevent overfitting by adding a penalty to the loss function.",
+    "keywords": ["regularization", "overfitting control", "penalty term"]
+  },
+  {
+    "question": "What is L1 regularization?",
+    "answer": "L1 regularization adds the absolute value of coefficients as a penalty, encouraging sparsity in the model.",
+    "keywords": ["L1 regularization", "absolute penalty", "sparse model"]
+  },
+  {
+    "question": "What is L2 regularization?",
+    "answer": "L2 regularization adds the squared value of coefficients as a penalty to the loss function to reduce model complexity.",
+    "keywords": ["L2 regularization", "squared penalty", "reduce complexity"]
+  },
+  {
+    "question": "What is ridge regression?",
+    "answer": "Ridge regression is a linear regression model that uses L2 regularization to prevent overfitting.",
+    "keywords": ["ridge regression", "L2 regularization", "overfitting control"]
+  },
+  {
+    "question": "What is lasso regression?",
+    "answer": "Lasso regression is a linear model that uses L1 regularization and can shrink some coefficients to zero.",
+    "keywords": ["lasso regression", "L1 regularization", "feature selection"]
+  },
+  {
+    "question": "What is a decision tree?",
+    "answer": "A decision tree is a supervised learning algorithm that splits data into branches based on feature values to make decisions.",
+    "keywords": ["decision tree", "feature splitting", "tree structure"]
+  },
+  {
+    "question": "What is entropy in decision tree?",
+    "answer": "Entropy is a measure of impurity or randomness in the data used to decide splits in decision trees.",
+    "keywords": ["entropy", "impurity measure", "data randomness"]
+  },
+  {
+    "question": "What is information gain?",
+    "answer": "Information gain measures the reduction in entropy after splitting the dataset based on a feature.",
+    "keywords": ["information gain", "entropy reduction", "feature selection"]
+  },
+  {
+    "question": "What is overfitting in decision trees?",
+    "answer": "Overfitting in decision trees occurs when the tree becomes too complex and captures noise instead of patterns.",
+    "keywords": ["overfitting", "complex tree", "noise capture"]
+  },
+  {
+    "question": "What is pruning in decision trees?",
+    "answer": "Pruning is the process of removing unnecessary branches from a decision tree to improve generalization.",
+    "keywords": ["pruning", "remove branches", "generalization"]
+  },
+  {
+    "question": "What is random forest?",
+    "answer": "Random forest is an ensemble learning method that builds multiple decision trees and combines their outputs.",
+    "keywords": ["random forest", "ensemble method", "multiple trees"]
+  },
+  {
+    "question": "What is bagging?",
+    "answer": "Bagging is an ensemble technique where multiple models are trained on random subsets of data and combined.",
+    "keywords": ["bagging", "bootstrap sampling", "ensemble"]
+  },
+  {
+    "question": "What is boosting?",
+    "answer": "Boosting is an ensemble technique where models are trained sequentially, focusing on correcting previous errors.",
+    "keywords": ["boosting", "sequential learning", "error correction"]
+  },
+  {
+    "question": "What is AdaBoost?",
+    "answer": "AdaBoost is a boosting algorithm that assigns weights to misclassified samples and improves model accuracy iteratively.",
+    "keywords": ["AdaBoost", "weight update", "iterative improvement"]
+  },
+  {
+    "question": "What is gradient boosting?",
+    "answer": "Gradient boosting builds models sequentially by minimizing errors using gradient descent techniques.",
+    "keywords": ["gradient boosting", "error minimization", "sequential model"]
+  },
+  {
+    "question": "What is XGBoost?",
+    "answer": "XGBoost is an optimized gradient boosting algorithm that is efficient and widely used for structured data.",
+    "keywords": ["XGBoost", "optimized boosting", "high performance"]
+  },
+  {
+    "question": "What is KNN algorithm?",
+    "answer": "K Nearest Neighbors is a supervised learning algorithm that classifies data based on the closest training examples.",
+    "keywords": ["KNN", "nearest neighbors", "distance based"]
+  },
+  {
+    "question": "What is distance metric in KNN?",
+    "answer": "Distance metric measures how close data points are, commonly using Euclidean distance.",
+    "keywords": ["distance metric", "euclidean distance", "similarity measure"]
+  },
+  {
+    "question": "What is curse of dimensionality?",
+    "answer": "Curse of dimensionality refers to problems that arise when data has too many features, making learning difficult.",
+    "keywords": ["high dimensions", "data sparsity", "performance issue"]
+  },
+  {
+    "question": "What is Naive Bayes?",
+    "answer": "Naive Bayes is a probabilistic classifier based on Bayes theorem assuming independence between features.",
+    "keywords": ["naive bayes", "probability model", "independence assumption"]
+  },
+  {
+    "question": "What is Bayes theorem?",
+    "answer": "Bayes theorem describes the probability of an event based on prior knowledge of related conditions.",
+    "keywords": ["bayes theorem", "conditional probability", "prior knowledge"]
+  },
+  {
+    "question": "What is prior probability?",
+    "answer": "Prior probability is the initial probability of an event before observing any data.",
+    "keywords": ["prior probability", "initial belief", "before data"]
+  },
+  {
+    "question": "What is posterior probability?",
+    "answer": "Posterior probability is the probability of an event after taking into account new evidence or data.",
+    "keywords": ["posterior probability", "updated belief", "after evidence"]
+  },
+  {
+    "question": "What is likelihood in machine learning?",
+    "answer": "Likelihood measures how probable the observed data is given a particular model or parameter value.",
+    "keywords": ["likelihood", "observed data", "model parameters"]
+  },
+  {
+    "question": "What is support vector machine?",
+    "answer": "Support Vector Machine is a supervised learning algorithm that finds the optimal hyperplane to separate data into classes.",
+    "keywords": ["SVM", "hyperplane", "classification boundary"]
+  },
+  {
+    "question": "What is hyperplane?",
+    "answer": "A hyperplane is a decision boundary that separates data points into different classes in a feature space.",
+    "keywords": ["hyperplane", "decision boundary", "feature space"]
+  },
+  {
+    "question": "What is margin in SVM?",
+    "answer": "Margin is the distance between the hyperplane and the closest data points from each class.",
+    "keywords": ["margin", "distance boundary", "support vectors"]
+  },
+  {
+    "question": "What are support vectors?",
+    "answer": "Support vectors are the data points closest to the decision boundary that influence the position of the hyperplane.",
+    "keywords": ["support vectors", "closest points", "boundary influence"]
+  },
+  {
+    "question": "What is kernel trick?",
+    "answer": "Kernel trick is a method used in SVM to transform data into a higher dimensional space to make it linearly separable.",
+    "keywords": ["kernel trick", "higher dimension", "non linear separation"]
+  },
+  {
+    "question": "What is linear kernel?",
+    "answer": "Linear kernel is a kernel function used when data is linearly separable and no transformation is needed.",
+    "keywords": ["linear kernel", "no transformation", "linear data"]
+  },
+  {
+    "question": "What is polynomial kernel?",
+    "answer": "Polynomial kernel is used to model non linear relationships by considering polynomial combinations of features.",
+    "keywords": ["polynomial kernel", "non linear", "feature interaction"]
+  },
+  {
+    "question": "What is RBF kernel?",
+    "answer": "RBF kernel maps data into higher dimensions using a Gaussian function to handle complex relationships.",
+    "keywords": ["RBF kernel", "gaussian function", "non linear mapping"]
+  },
+  {
+    "question": "What is clustering?",
+    "answer": "Clustering is an unsupervised learning technique that groups similar data points together.",
+    "keywords": ["clustering", "grouping data", "unsupervised learning"]
+  },
+  {
+    "question": "What is K means clustering?",
+    "answer": "K means is a clustering algorithm that partitions data into k clusters based on nearest centroid.",
+    "keywords": ["k means", "centroid", "cluster assignment"]
+  },
+  {
+    "question": "What is centroid?",
+    "answer": "Centroid is the center point of a cluster calculated as the mean of all data points in that cluster.",
+    "keywords": ["centroid", "mean point", "cluster center"]
+  },
+  {
+    "question": "What is elbow method?",
+    "answer": "Elbow method is used to determine optimal number of clusters by analyzing variance reduction.",
+    "keywords": ["elbow method", "optimal clusters", "variance analysis"]
+  },
+  {
+    "question": "What is hierarchical clustering?",
+    "answer": "Hierarchical clustering builds a tree of clusters using either a bottom up or top down approach.",
+    "keywords": ["hierarchical clustering", "tree structure", "cluster hierarchy"]
+  },
+  {
+    "question": "What is agglomerative clustering?",
+    "answer": "Agglomerative clustering is a bottom up approach where each data point starts as its own cluster and merges iteratively.",
+    "keywords": ["agglomerative", "bottom up", "merge clusters"]
+  },
+  {
+    "question": "What is divisive clustering?",
+    "answer": "Divisive clustering is a top down approach where all data points start in one cluster and are split iteratively.",
+    "keywords": ["divisive", "top down", "split clusters"]
+  },
+  {
+    "question": "What is dimensionality reduction?",
+    "answer": "Dimensionality reduction reduces the number of features while preserving important information.",
+    "keywords": ["dimensionality reduction", "reduce features", "information retention"]
+  },
+  {
+    "question": "What is PCA?",
+    "answer": "Principal Component Analysis is a technique that transforms data into new variables that capture maximum variance.",
+    "keywords": ["PCA", "variance maximization", "feature transformation"]
+  },
+  {
+    "question": "What is explained variance?",
+    "answer": "Explained variance measures how much information is captured by each principal component in PCA.",
+    "keywords": ["explained variance", "PCA components", "information captured"]
+  },
+  {
+    "question": "What is feature engineering?",
+    "answer": "Feature engineering is the process of creating, selecting, and transforming variables to improve model performance.",
+    "keywords": ["feature engineering", "feature transformation", "model improvement"]
+  },
+  {
+    "question": "What is feature selection?",
+    "answer": "Feature selection involves choosing the most relevant features for training a model to improve performance and reduce complexity.",
+    "keywords": ["feature selection", "relevant features", "reduce complexity"]
+  },
+  {
+    "question": "What is feature extraction?",
+    "answer": "Feature extraction is the process of transforming raw data into a set of useful features for modeling.",
+    "keywords": ["feature extraction", "data transformation", "useful features"]
+  },
+  {
+    "question": "What is data preprocessing?",
+    "answer": "Data preprocessing involves cleaning and transforming raw data into a format suitable for machine learning models.",
+    "keywords": ["data preprocessing", "data cleaning", "data transformation"]
+  },
+  {
+    "question": "What is missing data handling?",
+    "answer": "Missing data handling involves techniques like imputation or removal to deal with incomplete data.",
+    "keywords": ["missing data", "imputation", "data cleaning"]
+  },
+  {
+    "question": "What is imputation?",
+    "answer": "Imputation is the process of filling missing values using statistical methods like mean, median, or mode.",
+    "keywords": ["imputation", "fill missing values", "statistical methods"]
+  },
+  {
+    "question": "What is outlier detection?",
+    "answer": "Outlier detection identifies data points that significantly differ from the rest of the dataset.",
+    "keywords": ["outlier detection", "anomaly", "data deviation"]
+  },
+  {
+    "question": "What is data augmentation?",
+    "answer": "Data augmentation increases dataset size by creating modified versions of existing data.",
+    "keywords": ["data augmentation", "increase data", "synthetic data"]
+  },
+  {
+    "question": "What is hyperparameter tuning?",
+    "answer": "Hyperparameter tuning is the process of optimizing model parameters that are set before training.",
+    "keywords": ["hyperparameter tuning", "model optimization", "parameter selection"]
+  },
+  {
+    "question": "What is grid search?",
+    "answer": "Grid search is a technique that searches through a specified set of hyperparameters to find the best combination.",
+    "keywords": ["grid search", "parameter tuning", "exhaustive search"]
+  },
+  {
+    "question": "What is random search?",
+    "answer": "Random search selects random combinations of hyperparameters to find the best model configuration.",
+    "keywords": ["random search", "parameter sampling", "optimization"]
+  },
+  {
+    "question": "What is model evaluation?",
+    "answer": "Model evaluation assesses how well a model performs on unseen data using metrics.",
+    "keywords": ["model evaluation", "performance measurement", "test data"]
+  },
+  {
+    "question": "What is ROC curve?",
+    "answer": "ROC curve is a graphical plot that shows the performance of a classification model at different thresholds.",
+    "keywords": ["ROC curve", "true positive rate", "false positive rate"]
+  },
+  {
+    "question": "What is AUC?",
+    "answer": "AUC is the area under the ROC curve and represents the model's ability to distinguish between classes.",
+    "keywords": ["AUC", "ROC area", "classification performance"]
+  },
+  {
+    "question": "What is precision recall curve?",
+    "answer": "Precision recall curve shows the tradeoff between precision and recall for different thresholds.",
+    "keywords": ["precision recall curve", "tradeoff", "classification metric"]
+  },
+  {
+    "question": "What is log loss?",
+    "answer": "Log loss measures the performance of a classification model by penalizing incorrect predictions with high confidence.",
+    "keywords": ["log loss", "probability error", "classification loss"]
+  },
+  {
+    "question": "What is confusion matrix components?",
+    "answer": "Confusion matrix consists of true positives, true negatives, false positives, and false negatives.",
+    "keywords": ["true positive", "false positive", "true negative"]
+  },
+  {
+    "question": "What is pipeline in machine learning?",
+    "answer": "A pipeline is a sequence of data processing steps combined into a single workflow for model training and evaluation.",
+    "keywords": ["pipeline", "workflow", "data processing steps"]
+  },
+  {
+    "question": "What is ensemble learning?",
+    "answer": "Ensemble learning combines multiple models to improve overall performance and accuracy.",
+    "keywords": ["ensemble learning", "multiple models", "improved accuracy"]
+  },
+  {
+    "question": "What is stacking?",
+    "answer": "Stacking is an ensemble technique where multiple models are combined using a meta-model for final prediction.",
+    "keywords": ["stacking", "meta model", "ensemble method"]
+  }
+]
+
