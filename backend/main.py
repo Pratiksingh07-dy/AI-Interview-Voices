@@ -5,9 +5,14 @@ import random
 import json
 import os
 
+from sentence_transformers import SentenceTransformer, util
+
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
+
 # ================= INIT ================= #
 
-app = FastAPI()   # ✅ MUST BE BEFORE middleware
+app = FastAPI()   
 
 app.add_middleware(
     CORSMiddleware,
@@ -38,16 +43,13 @@ def is_match(user_text, keyword):
     keyword = keyword.lower()
     user_text = user_text.lower()
 
-    # phrase match (multi-word support)
     if keyword in user_text:
         return True
 
-    # word match
     words = user_text.split()
     if keyword in words:
         return True
 
-    # synonym match
     if keyword in SYNONYMS:
         for syn in SYNONYMS[keyword]:
             if syn in user_text:
@@ -99,34 +101,58 @@ def get_question(topic: str):
 
     return selected
 
+def clean_text(text):
+    import re
+    text = text.lower()
+    text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
+    return text
+
 @app.post("/evaluate")
 def evaluate(data: dict):
-    user_answer = data.get("answer", "").lower()
+    user_answer = clean_text(data.get("answer", ""))
     keywords = data.get("keywords", [])
+    ideal_answer = clean_text(
+    data.get("ideal_answer") or data.get("answer") or " ".join(keywords)
+)
 
+    # 🔹 SEMANTIC SCORE (0–10)
+    emb1 = model.encode(user_answer, convert_to_tensor=True)
+    emb2 = model.encode(ideal_answer, convert_to_tensor=True)
+
+    similarity = util.cos_sim(emb1, emb2).item()
+    semantic_score = int(similarity * 10)
+
+    # 🔹 KEYWORD SCORE (0–10)
     matched = []
-
     for word in keywords:
         if is_match(user_answer, word):
             matched.append(word)
 
-    total_keywords = len(keywords)
-    score = int((len(matched) / total_keywords) * 100) if total_keywords else 0
+            
 
-    missing = [word for word in keywords if word not in matched]
-
-    if score >= 80:
-        feedback = "Excellent answer! Very strong explanation."
-    elif score >= 50:
-        feedback = "Good attempt, but you can include more key concepts."
-    elif score > 0:
-        feedback = "Partial answer. Try to explain more details."
+    if len(keywords) == 0:
+        keyword_score = 0
     else:
-        feedback = "Try again and include the important concepts."
+        keyword_score = int((len(matched) / len(keywords)) * 10)
+
+    # 🔥 FINAL SCORE (COMBINED)
+    final_score = int((semantic_score * 0.7) + (keyword_score * 0.3))
+    final_score = min(final_score, 10)
+
+    # 🔹 FEEDBACK
+    if final_score >= 8:
+        feedback = "Excellent answer! Very strong explanation."
+    elif final_score >= 5:
+        feedback = "Good answer, but add more clarity and key concepts."
+    elif final_score > 0:
+        feedback = "Partial answer. Improve explanation and structure."
+    else:
+        feedback = "Answer not relevant. Try again."
 
     return {
-        "score": score,
+        "score": final_score,
+        "semantic_score": semantic_score,
+        "keyword_score": keyword_score,
         "matched_keywords": matched,
-        "missing_keywords": missing,
         "feedback": feedback
     }
