@@ -140,9 +140,9 @@ const evaluateAnswer = async () => {
   return (
     <div className="container">
       <button onClick={() => navigate("/")}>
-  ⬅ Back to Home
+   Back to Home
 </button>
-      <h1>🎤 AI Interview Practice</h1>
+      <h1> AI Interview Practice</h1>
 
       <div className="card">
         <div className="controls">
