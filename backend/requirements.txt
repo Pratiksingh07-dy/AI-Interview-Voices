@@ -1,0 +1,17 @@
+# FastAPI - used to create backend APIs (login, signup, evaluation, questions)
+fastapi
+
+# Uvicorn - ASGI server to run FastAPI application
+uvicorn
+
+# Sentence Transformers - used for semantic similarity between user answer and ideal answer
+sentence-transformers
+
+# PyTorch - required backend engine for sentence-transformers model
+torch
+
+# NumPy - used for numerical operations (vector calculations, similarity processing)
+numpy
+
+# Scikit-learn - used internally for similarity and ML utilities (cosine similarity support)
+scikit-learn
