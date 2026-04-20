@@ -1,48 +1,65 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Result() {
-  const { state } = useLocation();
   const navigate = useNavigate();
+  const [results, setResults] = useState([]);
 
-  if (!state) {
-    return <h2>No data available</h2>;
+  useEffect(() => {
+    const data = JSON.parse(localStorage.getItem("results"));
+    if (data && data.length > 0) {
+      setResults(data);
+    }
+  }, []);
+
+  if (results.length === 0) {
+    return (
+      <div className="container">
+        <h2 style={{ textAlign: "center" }}>No data available</h2>
+      </div>
+    );
   }
 
-  const { finalScore, results } = state;
-
-  const percentage = ((finalScore / (results.length * 10)) * 100).toFixed(2);
+  const totalScore = results.reduce((sum, r) => sum + r.score, 0);
 
   return (
     <div className="container">
-      <h1>📊 Interview Result</h1>
 
-      <h2>Your Score: {percentage}%</h2>
-
-      <button onClick={() => navigate("/")}>
-         Go Home
+      {/* BACK */}
+      <button
+        onClick={() => navigate("/")}
+        style={{
+          position: "absolute",
+          top: "20px",
+          left: "20px"
+        }}
+      >
+        Back
       </button>
 
-      <div style={{ marginTop: "20px" }}>
-        {results.map((item, index) => (
-          <div
-            key={index}
-            style={{
-              marginBottom: "20px",
-              padding: "15px",
-              background: "#222",
-              borderRadius: "10px",
-            }}
-          >
-            <h3>Q{index + 1}: {item.question}</h3>
+      <h1 style={{ textAlign: "center" }}>Interview Result</h1>
 
-            <p><strong>Your Answer:</strong> {item.answer}</p>
+      <h2 style={{ textAlign: "center", marginBottom: "20px" }}>
+        Final Score: {totalScore}/10
+      </h2>
 
-            <p><strong>Score:</strong> {item.score}/10</p>
+      {results.map((item, index) => (
+        <div
+          key={index}
+          style={{
+            background: "#1e1e1e",
+            padding: "20px",
+            margin: "15px",
+            borderRadius: "10px"
+          }}
+        >
+          <h3>Q{index + 1}: {item.question}</h3>
+          <p><strong>Your Answer:</strong> {item.answer}</p>
+          <p><strong>Score:</strong> {item.score}</p>
+          <p><strong>Feedback:</strong> {item.feedback}</p>
+        </div>
+      ))}
 
-            <p><strong>Feedback:</strong> {item.feedback}</p>
-          </div>
-        ))}
-      </div>
     </div>
   );
 }
