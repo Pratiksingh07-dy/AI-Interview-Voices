@@ -4,8 +4,46 @@ import "../App.css";
 function Home() {
   const navigate = useNavigate();
 
+  // ✅ Get user
+  const user = JSON.parse(localStorage.getItem("user"));
+
   return (
-    <div className="container">
+    <div
+      className="container"
+      style={{ position: "relative" }} // ✅ important for avatar positioning
+    >
+      {/* 👤 Avatar (Top Right) */}
+      <div
+        onClick={() => navigate("/profile")}
+        style={{
+          position: "fixed",
+          top: "20px",
+          right: "20px",
+          width: "45px",
+          height: "45px",
+          borderRadius: "50%",
+          background: "linear-gradient(135deg, #6a11cb, #2575fc)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          color: "white",
+          fontWeight: "bold",
+          fontSize: "18px",
+          cursor: "pointer",
+          zIndex: 1000,    
+          boxShadow: "0 0 10px rgba(0,0,0,0.5)",
+          transition: "0.2s"
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = "scale(1.1)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = "scale(1)";
+        }}
+      >
+        {user?.username ? user.username[0].toUpperCase() : "U"}
+      </div>
+
       <h1>AI Interview System</h1>
 
       <div className="card">
