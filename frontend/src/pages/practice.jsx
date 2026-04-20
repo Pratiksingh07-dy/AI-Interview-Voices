@@ -202,39 +202,31 @@ const evaluateAnswer = async () => {
           </>
         )}
 
-        {result && (
-          <div className="result-box">
-            <h2>
-              {topic === "aptitude"
-              ? "Evaluation Result"
-              : `Score: ${result.score}%`}
-            </h2>
+       {result && (
+  <div className="result-box">
+    <h2>Score: {result.score}/10</h2>
+    <p>
+      <strong>Matched:</strong>{" "}
+      {(result.matched_keywords || []).join(", ") || "None"}
+    </p>
 
-            <p>
-              <strong>
-  {topic === "aptitude" ? "Key Points Covered" : "Matched"}
-</strong>{" "}
-              {result.matched_keywords.join(", ")}
-            </p>
+    <p>
+      <strong>Missing:</strong>{" "}
+      {result.missing_keywords && result.missing_keywords.length > 0
+        ? result.missing_keywords.join(", ")
+        : "None"}
+    </p>
 
-            {topic !== "aptitude" && (
-  <p>
-    <strong>Missing:</strong>{" "}
-    {result.missing_keywords.join(", ")}
-  </p>
-)}
+    <p>
+      <strong>Feedback:</strong> {result.feedback}
+    </p>
 
-            <p>
-              <strong>Feedback:</strong> {result.feedback}
-            </p>
+    <hr style={{ margin: "20px 0" }} />
 
-            <hr style={{ margin: "20px 0" }} />
-
-            <h3>📖 Ideal Answer:</h3>
-            <p>{modelAnswer}</p>
-          </div>
-        )}
-      </div>
+    <h3>📖 Ideal Answer:</h3>
+    <p>{modelAnswer}</p>
+  </div>
+)} </div>
     </div>
   );
 }
