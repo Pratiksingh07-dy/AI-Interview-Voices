@@ -23,8 +23,36 @@ function Interview() {
 
   const totalQuestions = 5;
 
-  // 🎤 FILLER ANALYSIS
-  const fillers = ["um", "uh", "like", "you know", "basically", "actually"];
+ const fillers = [
+  // basic
+  "um", "uh", "hmm", "erm",
+
+  // common conversational
+  "like", "you know", "i mean", "sort of", "kind of",
+
+  // thinking fillers
+  "let me think", "let me see", "how do i say", "what i mean is",
+
+  // overused clarity fillers
+  "basically", "actually", "literally", "obviously", "simply",
+
+  // hesitation phrases
+  "so yeah", "and yeah", "right", "okay", "ok",
+  "well", "so", "hmm so", "uh so",
+
+  // repetition starters
+  "so basically", "like i said", "as i said",
+
+  // casual speech
+  "kinda", "sorta", "you see", "you can say",
+
+  // weak confidence words
+  "maybe", "probably", "i guess", "i think",
+
+  // indian conversational fillers
+  "matlab", "bas", "toh", "haan", "achha", "waise",
+  "actually na", "toh basically", "samjho"
+];
 
   const countFillers = (text) => {
     let count = 0;
@@ -46,7 +74,7 @@ function Interview() {
     return Math.max(0, confidence);
   };
 
-  // 🔥 GET QUESTION
+  //  GET QUESTION
   const getQuestion = async () => {
     const res = await axios.get(
       `http://127.0.0.1:8000/get-question/${topic}`
@@ -58,7 +86,7 @@ function Interview() {
     setTranscript("");
   };
 
-  // 🔥 EVALUATE ANSWER
+  //  EVALUATE ANSWER
   const evaluateAnswer = async () => {
     try {
       const res = await axios.post(
@@ -86,12 +114,12 @@ function Interview() {
       setCount(newCount);
       setResults(updatedResults);
 
-      // 🔥 LAST QUESTION
+      //  LAST QUESTION
       if (newCount === totalQuestions) {
-        // ✅ SAVE FOR RESULT PAGE
+        //  SAVE FOR RESULT PAGE
         localStorage.setItem("results", JSON.stringify(updatedResults));
 
-        // ✅ SAVE PER USER (PROFILE)
+        //  SAVE PER USER (PROFILE)
         const user = JSON.parse(localStorage.getItem("user"));
 
         if (user) {
@@ -160,7 +188,7 @@ function Interview() {
     };
   };
 
-  // 🛑 STOP VOICE
+  //  STOP VOICE
   const stopListening = () => {
     if (recognitionRef.current) {
       recognitionRef.current.stop();
