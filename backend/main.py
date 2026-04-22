@@ -62,11 +62,17 @@ def login(data: dict):
     email = data.get("email")
     password = data.get("password")
 
+    # 🔍 check if email exists
     for u in users:
-        if u["email"] == email and u["password"] == password:
-            return {"message": "Login success", "user": u}
+        if u["email"] == email:
+            # email found → now check password
+            if u["password"] == password:
+                return {"message": "Login success", "user": u}
+            else:
+                return {"error": "Wrong password"}
 
-    return {"error": "Invalid credentials"}
+    # ❌ email not found
+    return {"error": "User not found"}
 
 # ================= SYNONYMS ================= #
 
@@ -180,11 +186,11 @@ def evaluate(data: dict):
     similarity = util.cos_sim(emb1, emb2).item()
     semantic_score = similarity  # 0–1
 
-    # 🔥 FINAL SCORE
+    #  FINAL SCORE
     final_score = (0.5 * keyword_score + 0.5 * semantic_score) * 10
     final_score = round(final_score)
 
-    # 🔥 FIX LOGIC: if keywords matched but explanation weak
+
     if len(matched) == len(keywords) and final_score < 8:
         missing = ["explanation depth"]
 

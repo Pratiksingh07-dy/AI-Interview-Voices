@@ -5,13 +5,13 @@ import "../App.css";
 function Profile() {
   const navigate = useNavigate();
 
-  // ✅ Get logged-in user
+  // 
   const user = JSON.parse(localStorage.getItem("user"));
 
-  // ✅ Dynamic history state
+  // 
   const [history, setHistory] = useState([]);
 
-  // ✅ Load user-specific history
+  // 
   useEffect(() => {
     if (user) {
       const key = `history_${user.email}`;

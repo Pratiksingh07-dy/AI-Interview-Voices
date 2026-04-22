@@ -4,13 +4,13 @@ import "../App.css";
 function Home() {
   const navigate = useNavigate();
 
-  // ✅ Get user
+  //  Get user
   const user = JSON.parse(localStorage.getItem("user"));
 
   return (
     <div
       className="container"
-      style={{ position: "relative" }} // ✅ important for avatar positioning
+      style={{ position: "relative" }} 
     >
       {/* 👤 Avatar (Top Right) */}
       <div
@@ -52,7 +52,7 @@ function Home() {
 
         <p>Practice Smarter. Perform Better.</p>
 
-        {/* 🔥 BUTTON GROUP */}
+        {/*  BUTTON GROUP */}
         <div
           style={{
             display: "flex",

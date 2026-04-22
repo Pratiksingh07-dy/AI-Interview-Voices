@@ -45,7 +45,7 @@ function Practice() {
   }
 };
 
- // 🧠 Evaluate Answer
+ //  Evaluate Answer
 const evaluateAnswer = async () => {
   stopListening(); // stop mic + timer
 
@@ -61,7 +61,7 @@ const evaluateAnswer = async () => {
 
     setResult(res.data);
 
-    // ✅ scroll AFTER result is set
+    //  scroll AFTER result is set
     window.scrollTo({
       top: document.body.scrollHeight,
       behavior: "smooth",
@@ -73,7 +73,7 @@ const evaluateAnswer = async () => {
   }
 };
 
-  // 🎤 Start Recording
+  //  Start Recording
   const startListening = () => {
     if (!("webkitSpeechRecognition" in window)) {
       alert("Please use Google Chrome");
@@ -115,7 +115,7 @@ const evaluateAnswer = async () => {
       console.error(event.error);
     };
 
-    // 🔥 Fix: restart if stopped unexpectedly
+    // 
     recognition.onend = () => {
       if (isRecording) {
         recognition.start();
@@ -123,7 +123,7 @@ const evaluateAnswer = async () => {
     };
   };
 
-  // 🛑 Stop Recording
+  // 
   const stopListening = () => {
     if (recognitionRef.current) {
       recognitionRef.current.onend = null;

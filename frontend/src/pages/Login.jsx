@@ -53,7 +53,13 @@ function Login() {
 
           navigate("/profile");
         } else {
-          alert(res.data.error || "Invalid credentials");
+          if (res.data.error === "User not found") {
+  alert("No account found. Please create an account first.");
+} else if (res.data.error === "Wrong password") {
+  alert("Incorrect password. Try again.");
+} else {
+  alert(res.data.error || "Login failed");
+}
         }
       }
     } catch (err) {

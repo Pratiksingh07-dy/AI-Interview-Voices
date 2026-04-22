@@ -20,7 +20,11 @@ function Result() {
     );
   }
 
+  //  total of all scores
   const totalScore = results.reduce((sum, r) => sum + r.score, 0);
+
+  //  average score (fix)
+  const averageScore = (totalScore / results.length).toFixed(1);
 
   return (
     <div className="container">
@@ -39,8 +43,9 @@ function Result() {
 
       <h1 style={{ textAlign: "center" }}>Interview Result</h1>
 
+      {/*  FIXED SCORE DISPLAY */}
       <h2 style={{ textAlign: "center", marginBottom: "20px" }}>
-        Final Score: {totalScore}/10
+        Final Score: {averageScore}/10
       </h2>
 
       {results.map((item, index) => (
