@@ -178,7 +178,7 @@ Frontend runs at: `http://localhost:5173`
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://github.com/your-username/AI-Interview-System/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/Pratiksingh07-dy/AI-Interview-Voices/blob/main/LICENSE).
 
 ---
 
