@@ -1,11 +1,15 @@
 import re
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
+from dotenv import load_dotenv
 import random
 import json
 import os
 
+from pymongo import MongoClient
 from sentence_transformers import SentenceTransformer, util
+
 
 # ================= INIT ================= #
 
@@ -20,6 +24,18 @@ app.add_middleware(
 )
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
+
+load_dotenv()
+MONGO_URI = os.getenv("MONGO_URI")
+print(MONGO_URI)
+# ================= MONGODB ================= #
+
+client = MongoClient(MONGO_URI)
+
+db = client["ai_interview_db"]
+
+users_collection = db["users"]
+print("MongoDB Connected Successfully!")
 
 # ================= USER STORAGE ================= #
 
@@ -73,6 +89,7 @@ def login(data: dict):
 
     # ❌ email not found
     return {"error": "User not found"}
+
 
 # ================= SYNONYMS ================= #
 
