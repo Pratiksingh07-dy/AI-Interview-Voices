@@ -64,15 +64,42 @@ function Interview() {
     return count;
   };
 
-  const getConfidence = () => {
-    const words = transcript.trim().split(/\s+/).length;
-    const fillerCount = countFillers(transcript);
+  const getWordCount = () => {
+  if (!transcript.trim()) return 0;
 
-    let confidence = 100 - fillerCount * 5;
-    if (words < 20) confidence -= 20;
+  return transcript
+    .trim()
+    .split(/\s+/)
+    .length;
+};
 
-    return Math.max(0, confidence);
-  };
+
+const getConfidence = () => {
+  const words = getWordCount();
+  const fillerCount = countFillers(transcript);
+
+  let confidence = 100 - fillerCount * 5;
+
+  if (words < 20) confidence -= 10;
+
+  return Math.max(0, confidence);
+};
+
+const getCommunicationRating = () => {
+  const confidence = getConfidence();
+  const fillerCount = countFillers(transcript);
+
+  if (confidence >= 85 && fillerCount <= 2) {
+    return "Excellent";
+  }
+
+  if (confidence >= 70) {
+    return "Good";
+  }
+
+  return "Needs Improvement";
+};
+  
 
   //  GET QUESTION
   const getQuestion = async () => {
@@ -277,11 +304,29 @@ function Interview() {
 
         {/* RIGHT SIDE */}
         {started && (
-          <div style={{ flex: 1, background: "#1e1e1e", padding: "15px" }}>
-            <h3>Voice Analysis</h3>
-            <p>Fillers: {countFillers(transcript)}</p>
-            <p>Confidence: {getConfidence()}%</p>
-          </div>
+          <div className="voice-analysis">
+  <h2>Voice Analysis</h2>
+
+  <div className="metric">
+    <span>Confidence</span>
+    <strong>{getConfidence()}%</strong>
+  </div>
+
+  <div className="metric">
+    <span>Fillers Used</span>
+    <strong>{countFillers(transcript)}</strong>
+  </div>
+
+  <div className="metric">
+    <span>Words Spoken</span>
+    <strong>{getWordCount()}</strong>
+  </div>
+
+  <div className="metric">
+    <span>Communication</span>
+    <strong>{getCommunicationRating()}</strong>
+  </div>
+</div>
         )}
 
       </div>

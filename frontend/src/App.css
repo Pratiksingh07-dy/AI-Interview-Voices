@@ -96,3 +96,36 @@ button:disabled {
   background: #555;
   border-radius: 10px;
 }
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 12px 0;
+  gap: 15px;
+
+  font-size: 1.1rem;
+}
+
+.metric strong {
+  font-weight: bold;
+}
+
+.voice-analysis {
+  width: 280px;
+
+  background: rgba(0, 0, 0, 0.75);
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  color: white;
+
+  backdrop-filter: blur(8px);
+
+  height: fit-content;
+
+  margin-top: 100px;
+}
