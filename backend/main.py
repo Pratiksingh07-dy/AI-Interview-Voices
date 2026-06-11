@@ -204,7 +204,7 @@ def evaluate(data: dict):
     semantic_score = similarity  # 0–1
 
     #  FINAL SCORE
-    final_score = (0.5 * keyword_score + 0.5 * semantic_score) * 10
+    final_score = (0.3 * keyword_score + 0.7 * semantic_score) * 10
     final_score = round(final_score)
 
 
